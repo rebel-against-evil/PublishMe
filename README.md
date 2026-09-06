@@ -60,7 +60,7 @@ Ahora ya tienes conectado tu instagram (donde quieres usar PublishMe) con la Fan
 Listo, esto nos va a permitir crear una app en meta for developers para poder así obtener los permisos necesarios que nuestro sistema requiere para arrancar
 ****
 **5. Crea tu propia app en Meta for Developers**
-1. Ve a [developers.facebook.com](https://developers.facebook.com).
+1. Ve a [developers.facebook.com](https://developers.facebook.com) y entra con tu cuenta de Facebook.
 2. Dale clic a "Mis apps" que se encuentra en la parte superior derecha.
 3. Dale clic a "Crear app".
 4. En "Nombre de la app", escribe un nombre para tu app (anota el nombre en algun lado, lo necesitaremos para el paso "8. Consigue tu IG_USER_ID")
@@ -99,7 +99,7 @@ Listo, ahora con este paso, ya no te a aparecerá el error conocido de "Rol de d
 ****
 **8. Genera tu token de acceso**
 1. Vuelve a darle a "Casos de uso" → "Personalizar"
-2. Baja hasta la sección "2. Generar tokens de acceso" → dale al icono de desplegar "⌄"  → y dale a "Generar token" en letras azul →
+2. → y dale a las letras azul "Generar token"
 3. Inicia sesion con la cuenta de instagram donde quieres usar PublishMe
 4. Te va a aparecer una pantalla con permisos en ella → dale "Permitir".
 8. Te va aparecerá una tarjeta
@@ -111,21 +111,21 @@ Listo, ahora con este paso, ya no te a aparecerá el error conocido de "Rol de d
 Ahora ya tienes el TOKEN DE ACCESO que es la 1ra variable de las 5 variables que necesita el sistema para funcionar
 ****
 **9. Consigue tu IG_USER_ID**
-1. Ve a [developers.facebook.com](https://developers.facebook.com) y entra con tu cuenta de Facebook.
+1. Ve a [developers.facebook.com](https://developers.facebook.com)
 2. Arriba a la derecha, dale clic a "Mis apps".
 3. Selecciona la app que hemos creado
 4. Dale a "Casos de uso" → y luego "Personalizar"
-5. Baja hasta la sección "2. Generar tokens de acceso"
-6. En "Cuenta de Instagram" fijate que hay un numero largo de 17 numeros, cópialo y pégalo a un bloc de notas
-7. Listo, acbas de obtener tu IG_USER_ID
-Listo, ahora ya tenenos el IG_USER_ID, que es la 2da variable de las 5 variables que necesita el sistema para funcionar 
+5. Baja hasta la sección "2. Generar tokens de acceso" → dale al icono de desplegar "⌄"
+6. Donde esta el nombre de tu Cuenta de Instagram → fijate en el número de 17 digitos que se encuentra debajo, cópialo y pégalo en un bloc de notas y nombralo como "IG_USER_ID" (Es tu IG_USER_ID) 
+7. Listo, acabas de obtener tu IG_USER_ID
+Listo, ya tienes el IG_USER_ID, la 2da variable de las 5 variables que necesita el sistema para funcionar 
 ****
 **10. Consigue tu REEL_MEDIA_ID**
 1. Haz click a este enlace [Graph API Explorer](https://developers.facebook.com/tools/explorer)
-2. En "App de Meta" (panel derecho - en letras chiquitas) → elige la App que Creaste (en el paso 5. **Crea tu propia app en Meta for Developers**)
-3. Selecciona el nombre de tu app
-4. En el campo "Token de acceso", pega el TOKEN DE ACCESO que copiamos en el bloc de notas (paso 8. **Genera tu token de acceso**)
-5. En la barra de consulta (donde dice algo como "me?fields=id,name"), bórrala y escribe: "me/media" → dale clic en "Enviar". (Si te da un error, revisa que el dominio a la izquierda de la barra diga .instagram.com, no .facebook.com — cámbialo con el desplegable si hace falta.)
+2. Donde dice "App de Meta" (a la derecha - en letras chiquitas) → elige la App que Creaste (el nombre de tu app que creamos) → Selecciona tu app
+3. En el campo "Token de acceso", pega el IG_ACCESS_TOKEN (que obtuvimos en el paso 8. **Genera tu token de acceso**)
+4. En la barra donde dice "me?fields=id,name", remplazala y escribe: "me/media"
+5. Dale clic en "Enviar". (Si te da un error, revisa que el dominio a la izquierda de la barra diga .instagram.com, no .facebook.com — cámbialo con el desplegable si hace falta.)
 6. Te va a devolver una lista de tus publicaciones recientes con sus IDs
 7. Copia el primer ID el que se encuentra mas arriba → y pégalo en un bloc de notas
 Listo, ahora ya tienes el REEL_MEDIA_ID, que es la 3ra variable de las 5 variables que necesita el sistema para funcionar
