@@ -177,7 +177,7 @@ Listo, ahora ya tienes creado el Bot de telegram, y tambien el TELEGRAM_BOT_TOKE
                            "error_code": 401,<br>
                           "description": "Unauthorized"<br>
                           }<br><br><br><br>
-                          Revisa el "https://api.telegram.org/bot{TELEGRAM_BOT_TOKEN}/getUpdates" probablemte lo copiaste mal "X")
+                          Revisa el "https://api.telegram.org/bot{TELEGRAM_BOT_TOKEN}/getUpdates" que te dije que modificaras, seguramente lo hiciste mal)
 
 12. El número dentro de **"chat": {"id": ...}** es tu TELEGRAM_CHAT_ID → cópialo y abre un bloc de notas y pegalo
 Listo ya tenemos el TELEGRAM_CHAT_ID, que es la 5ta variable de las 5 variables que necesita el sistema para funcionar
