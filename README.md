@@ -126,37 +126,40 @@ Listo, ya tienes el IG_USER_ID, la 2da variable de las 5 variables que necesita 
 3. En el campo "Token de acceso", pega el IG_ACCESS_TOKEN (que obtuvimos en el paso 8. **Genera tu token de acceso**)
 4. En la barra donde dice "me?fields=id,name", remplazala y escribe: "me/media"
 5. Dale clic en "Enviar". (Si te da un error, revisa que el dominio a la izquierda de la barra diga .instagram.com, no .facebook.com — cámbialo con el desplegable si hace falta.)
-6. Te va a devolver una lista de tus publicaciones recientes con sus IDs
-7. Copia el primer ID el que se encuentra mas arriba → y pégalo en un bloc de notas
-Listo, ahora ya tienes el REEL_MEDIA_ID, que es la 3ra variable de las 5 variables que necesita el sistema para funcionar
+6. Te va a devolver una lista de tus publicaciones recientes con sus " "id": "...." "
+7. Copia el NUMERO del primer " "id": "....." " (el más arriba de todos) → pégalo y guardalo como "REEL_MEDIA_ID" en un bloc de notas
+Listo, ahora ya tienes el REEL_MEDIA_ID, la 3ra variable de las 5 variables que necesita el sistema para funcionar
 ****
 **11. Crea tu bot de Telegram que te notificara de todo lo que le ocurra al sistema y genera el TELEGRAM_BOT_TOKEN**
-1. Instala Telegram y crea una cuenta o inicia sesion
-2. Dale a la "lupa"
+1. Instala Telegram e inicia sesion o create una cuenta
+2. Dale al Buscador "la Lupa"
 3. Y escribe "botfather"
-4. Selecciona una cuenta que diga "BotFather y con una icono de cuenta verificada" (BotFather es una cuenta verificada por telegram) → dale clic
-5. Escribe "/start" luego te respondera → y tu escrbiras "/newbot"
+4. Selecciona la cuenta que diga "BotFather" (con el icono de "cuenta verificada") → y dale clic
+5. Escribe "/start" → luego te responderá → y luego le escribes nuevamente "/newbot"
 6. Luego te dira "Bien. Ahora elijamos un nombre de usuario para tu bot. Debe terminar en «bot». Por ejemplo: TetrisBot o tetris_bot."
-7. Nombra a tu bot con un nombre y luego añadele ´bot´ → debe terminar en "bot" sino BotFather te votara "Sorry, this username is invalid" (Anecdota: he puesto AutomatizacionReelsBot y me boto error, puse lo mismo insistiendole y me boto error nuevamente, probe con "MiNombre"ReelMonitor_bot y me acepto y me respondio)
+7. Dale un nombre a tu bot con un nombre y luego añadele ´bot´ al final → (te puede botar "Sorry, this username is invalid") (Prueba con todo para que te admita)
 8. Te enviara un mensaje que se vera asi " Done! Congratulations on your new bot. You will find it at t.me/"MiNombre"ReelMonitor_bot. You can now add a description, about section and profile picture for your bot, see /help for a list of commands. By the way, when you've finished creating your cool bot, ping our Bot Support if you want a better username for it. Just make sure the bot is fully operational before you do this.
-Use this token to access the HTTP API:
-  **547856584:BBCzaFttr985rf5LlHP7qJ02T37SoruYEOVS**  
+Use this token to access the HTTP API: **547856584:BBCzaFttr985rf5LlHP7qJ02T37SoruYEOVS**  
 Keep your token secure and store it safely, it can be used by anyone to control your bot.
 For a description of the Bot API, see this page: https://core.telegram.org/bots/api "
-9. COPIA lo que este OCUPANDO el "**547856584:BBCzaFttr985rf5LlHP7qJ02T37SoruYEOVS**" ese es tu TELEGRAM_BOT_TOKEN que necesitamos
-10. Pega el TELEGRAM_BOT_TOKEN en un bloc de notas para guardarlo
+9. COPIA lo que este OCUPANDO "**547856584:BBCzaFttr985rf5LlHP7qJ02T37SoruYEOVS**" ese es tu TELEGRAM_BOT_TOKEN
+10. Nombralo como "TELEGRAM_BOT_TOKEN" en un bloc de notas y Guardalo
 Listo, ahora ya tienes creado el Bot de telegram, y tambien el TELEGRAM_BOT_TOKEN, que es la 4ta variable de las 5 variables que necesita el sistema para funcionar
 ****
 **12. Genera el TELEGRAM_CHAT_ID**
-1. Ve a Google
-2. Remplaza en este link "https://api.telegram.org/bot{TELEGRAM_BOT_TOKEN}/getUpdates" remplazando el "{TELEGRAM_BOT_TOKEN}" por tu TELEGRAM_BOT_TOKEN que generamos en el paso 11 y pon el nuevo link en el navegador
-3. Dale Enter (Si te bota:
+1. Entra a Telegram
+2. Entra a BotFather
+3. En el mensaje ""
+4. Luego ve a Google
+2. Copia este link "https://api.telegram.org/bot{TELEGRAM_BOT_TOKEN}/getUpdates" y remplaza el "{TELEGRAM_BOT_TOKEN}" por el TELEGRAM_BOT_TOKEN
+3. Luego le das enter y...
+4. (Si te bota:<br>
                           {<br>
                            "ok": false,<br>
                            "error_code": 401,<br>
                           "description": "Unauthorized"<br>
-                          }<br>
-                          Revisa el https://api.telegram.org/bot{TELEGRAM_BOT_TOKEN}/getUpdates que te dije que modificaras, probablemente este mal)
+                          }<br><br>
+                          Revisa el "https://api.telegram.org/bot{TELEGRAM_BOT_TOKEN}/getUpdates" probablemte lo copiaste mal "X")
 5. Te deberia salir: {<br>
                        "ok": true,<br>
                        "result": [ <br>
