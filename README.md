@@ -185,21 +185,21 @@ Listo ya tenemos el TELEGRAM_CHAT_ID, que es la 5ta variable de las 5 variables 
 Listo con esto ya tenemos las 5 variables ahora es momento de dejar de buscar y empezar a construir
 ****
 **13. Configura los 5 Secrets en GitHub**
-1. Entra a https://github.com/
-2. Donde dice "Top repositories" → dale click al Repositorio que se encuentra abajo de "Top repositories"
+1. Entra a https://github.com/ e inicia sesion
+2. Donde dice "Top repositories" → dale click a tu Repositorio (que se encuentra deabajo de "Top repositories")
 3. Dale click donde diga "Settings"
-4. Dale clcik a "Secrets and variables"
-5. Dale clcik a "Actions"
-6. Dale clcik a "New repository secret"
-Ahora ten cuidado haciendo exactamente lo que te digo...
-En "Name" se pone el nombre que desees al secreto y en "Secret" se pone el valor que debemos ponerle al secreto
-Ahora
-7. En Name pon IG_ACCESS_TOKEN y en Secret pones el token del paso 8 y darle a "Add secret"
-8. En Name pones IG_USER_ID y en Secret pones el token del paso 8
-9. En Name pones REEL_MEDIA_ID y en Secret pones el token del paso 8
-10. En Name pones TELEGRAM_BOT_TOKEN y en Secret pones el token del paso 8
-11. En Name pones TELEGRAM_CHAT_ID y en Secret pones el token del paso 8
-Listo, lo que acabamos de hacer es integrar las 5 variables en el sistema. Ahora solo falta hacer que el sistema guarde su propio progreso, permitir que el sistema pueda subir videos y caption y disparar automáticamente el sistema para que no tengas que hacerlo manualmente
+4. Dale click a "Secrets and variables"
+5. Dale click a "Actions"
+6. Dale click a "New repository secret" (en la parte izquierda en letras pequeñas)
+Ahora, ten cuidado al interpretar lo que te voy a decir, porque tengo el presentimiento de que puedas tener confusiones, espero que eso solo sea cosa mia...
+7. En "Name" escribe "IG_ACCESS_TOKEN" y en "Secret" copia y pega la 1ra variable de las 5 variables (el paso 8) → y luego le das a "Add secret"
+8. Luego dale a "New repository secret" → En "Name" escribe "IG_USER_ID" y en "Secret" copia y pega la 2da variable de las 5 variables (paso 9) → y luego le das a "Add secret"
+9. Dale a "New repository secret" → En "Name" escribe "REEL_MEDIA_ID" y en "Secret" copia y pega la 3ra variable de las 5 variables (paso 10) → y le das a "Add secret"
+10. Dale a "New repository secret" → En "Name" escribe "TELEGRAM_BOT_TOKEN" y en "Secret" copia y pega la 4ta variable de las 5 variables (paso 11) → y le das a "Add secret"
+11. Dale a "New repository secret" → En "Name" escribe "TELEGRAM_CHAT_ID" y en "Secret" copia y pega la 5ta variable de las 5 variables (paso 12) → y le das a "Add secret"<br><br>
+Listo, acabamos de integrar las 5 variables al sistema
+****
+Ahora solo falta hacer que el sistema guarde su progreso, permita subir videos y caption y que se dispare automáticamente para no tener que hacerlo manualmente
 ****
 **14. Haz que el sistema guarde su propio progreso. Activa permisos de escritura para Actions**
 1. Entra a https://github.com/
