@@ -157,10 +157,10 @@ For a description of the Bot API, see this page: https://core.telegram.org/bots/
 5. Dale a "INICIAR"
 6. Envíale un "Hola" (esto es esencial para saber si el bot funciona, si no lo lee, preocupate, no te tiene que responder con otro mensaje, solo tiene que aparecer en tu mensaje las 2 palomitas de leido, si no te aparece, entonces tienes dos opciones: o solucionas el problema tu solo o me contactas y lo solucionamos juntos) luego de eso ve a google
 7. Luego ve a Google
-2. Copia este link "https://api.telegram.org/bot{TELEGRAM_BOT_TOKEN}/getUpdates" y remplaza el "{TELEGRAM_BOT_TOKEN}" por el TELEGRAM_BOT_TOKEN
-3. Luego le das enter
-4. Luego le das a la casilla de "Dar formato al texto", quedando en ✔
-5. Y te debe salir: {<br>
+8. Copia este link "https://api.telegram.org/bot{TELEGRAM_BOT_TOKEN}/getUpdates" y remplaza el "{TELEGRAM_BOT_TOKEN}" por el TELEGRAM_BOT_TOKEN
+9. Luego le das enter
+10. Luego le das a la casilla de "Dar formato al texto", quedando en ✔
+11. Y te debe salir:<br> {<br>
                        "ok": true,<br>
                        "result": [ <br>
                          { <br>
@@ -182,7 +182,7 @@ For a description of the Bot API, see this page: https://core.telegram.org/bots/
                           }<br><br>
                           Revisa el "https://api.telegram.org/bot{TELEGRAM_BOT_TOKEN}/getUpdates" probablemte lo copiaste mal "X")
 
-7. El número dentro de **"chat": {"id": ...}** es tu TELEGRAM_CHAT_ID → cópialo y abre un bloc de notas y pegalo
+12. El número dentro de **"chat": {"id": ...}** es tu TELEGRAM_CHAT_ID → cópialo y abre un bloc de notas y pegalo
 Listo ya tenemos el TELEGRAM_CHAT_ID, que es la 5ta variable de las 5 variables que necesita el sistema para funcionar
 Listo con esto ya tenemos las 5 variables ahora es momento de dejar de buscar y empezar a construir
 ****
