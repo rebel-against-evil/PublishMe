@@ -149,11 +149,8 @@ Listo, ahora ya tienes creado el Bot de telegram, y tambien el TELEGRAM_BOT_TOKE
 **12. Genera el TELEGRAM_CHAT_ID**
 1. Entra a Telegram
 2. Entra a BotFather
-3. En el mensaje " Done! Congratulations on your new bot. You will find it at **t.me/"MiNombre"ReelMonitor_bot.** You can now add a description, about section and profile picture for your bot, see /help for a list of commands. By the way, when you've finished creating your cool bot, ping our Bot Support if you want a better username for it. Just make sure the bot is fully operational before you do this.
-Use this token to access the HTTP API: 547856584:BBCzaFttr985rf5LlHP7qJ02T37SoruYEOVS
-Keep your token secure and store it safely, it can be used by anyone to control your bot.
-For a description of the Bot API, see this page: https://core.telegram.org/bots/api "
-4. Pulsa con tu dedo lo que esté ocupando **t.me/"MiNombre"ReelMonitor_bot.**
+3. En el mensaje " Done! Congratulations on your new bot. You will find it at **t.me/"MiNombre"ReelMonitor_bot.** You can now add a description, about section and profile picture for your bot, see /help for a list of commands. By the way, when you've finished creating your cool bot, ping our Bot Support if you want a better username for it. Just make sure the bot is fully operational before you do this. Use this token to access the HTTP API: 547856584:BBCzaFttr985rf5LlHP7qJ02T37SoruYEOVS Keep your token secure and store it safely, it can be used by anyone to control your bot.
+4. For a description of the Bot API, see this page: https://core.telegram.org/bots/api "Pulsa con tu dedo lo que esté ocupando **t.me/"MiNombre"ReelMonitor_bot.**
 5. Dale a "INICIAR"
 6. Envíale un "Hola" (esto es esencial para saber si el bot funciona, si no lo lee, preocupate, no te tiene que responder con otro mensaje, solo tiene que aparecer en tu mensaje las 2 palomitas de leido, si no te aparece, entonces tienes dos opciones: o solucionas el problema tu solo o me contactas y lo solucionamos juntos) luego de eso ve a google
 7. Luego ve a Google
