@@ -236,7 +236,7 @@ Listo, con esto hiciste que el sistema tuviera la posibilidad de subir videos (e
  Clave : Accept - Valor : application/vnd.github+json<br>
 21. En "Método de solicitud" → cambia de "GET" a "POST"
 21. En "Cuerpo de la solicitud", pega exactamente esto: {"ref":"main"}
-22. Baja hasta el final → y dale a "EJECUCIÓN DE PRUEBA" (si te sale "204 No Content", significa que lo hiciste muy bien ;) ).
+22. Baja hasta el final → y dale a "EJECUCIÓN DE PRUEBA" y dale a "INICIAR EJECUCION DE PRUEBA" (si te sale "204 No Content", significa que lo hiciste muy bien ;), si no te sale eso entonces hay un PROBLEMA y es alli donde existen dos alternativas: O lo resuelves tu solo o lo resolvemos juntos).
 23. Luego cierra la ventana → y dale al botón naranja "Crear"
 Listo, acabamos de crear el disparador automático del sistema para que no estés activándolo todo el tiempo manualmente
 ****
