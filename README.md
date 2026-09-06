@@ -179,8 +179,9 @@ Listo, ahora ya tienes creado el Bot de telegram, y tambien el TELEGRAM_BOT_TOKE
                           }<br><br><br><br>
                           Revisa el "https://api.telegram.org/bot{TELEGRAM_BOT_TOKEN}/getUpdates" que te dije que modificaras, seguramente lo hiciste mal)
 
-12. El número dentro de **"chat": {"id": ...}** es tu TELEGRAM_CHAT_ID → cópialo y abre un bloc de notas y pegalo<br>
-Listo ya tenemos el TELEGRAM_CHAT_ID, que es la 5ta variable de las 5 variables que necesita el sistema para funcionar<br><br>
+12. Busca algo que diga **"chat": {"id": ...}**, y ese número despues del " "id": " es tu TELEGRAM_CHAT_ID → cópialo, abre un bloc de notas, pegalo y guardalo como "TELEGRAM_CHAT_ID"<br><br>
+Listo ya tenemos el TELEGRAM_CHAT_ID, que es la 5ta variable de las 5 variables que necesita el sistema para funcionar<br>
+****
 Listo con esto ya tenemos las 5 variables ahora es momento de dejar de buscar y empezar a construir
 ****
 **13. Configura los 5 Secrets en GitHub**
