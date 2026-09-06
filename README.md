@@ -199,48 +199,49 @@ Ahora, ten cuidado al interpretar lo que te voy a decir, porque tengo el present
 11. Dale a "New repository secret" → En "Name" escribe "TELEGRAM_CHAT_ID" y en "Secret" copia y pega la 5ta variable de las 5 variables (paso 12) → y le das a "Add secret"<br><br>
 Listo, acabamos de integrar las 5 variables al sistema
 ****
-Ahora solo falta hacer que el sistema guarde su progreso, permita subir videos y caption y que se dispare automáticamente para no tener que hacerlo manualmente
+Ahora solo falta hacer que el sistema guarde su progreso, pueda subir videos y caption y que se dispare automáticamente para no tener que hacerlo manualmente
 ****
 **14. Haz que el sistema guarde su propio progreso. Activa permisos de escritura para Actions**
 1. Entra a https://github.com/
-2. Donde dice "Top repositories" → dale click al Repositorio que se encuentra abajo de "Top repositories"
-3. Dale click donde diga "Settings" → "Actions" → "General" → "Workflow permissions" → selecciona "Read and write permissions" → y luego le das al boton "Save"
+2. Donde dice "Top repositories" → dale click a tu Repositorio (que se encuentra abajo de "Top repositories")
+3. Dale click donde diga "Settings" → "Actions" → "General" → "Workflow permissions" → selecciona "Read and write permissions" → y luego dale al boton de abajo "Save"
 Con esto le dotas al sistema de guardar su propio progreso
 ****
-**15. Permitire que el sistema pueda subir videos y captions. Crea una cuenta en Cloudinary**
+**15. Haz que el sistema pueda subir videos y captions. Create una cuenta en Cloudinary**
 1. Entra al link [cloudinary.com](https://cloudinary.com)
-2. Create una cuenta en cloudinary
-Listo, esto te permitirá subir tus videos al sistema en forma de URLs, que es mucho mas barato y practico
+2. Create una cuenta en cloudinary o inicia sesion
+Listo, con esto hiciste que el sistema tuviera la posibilidad de subir videos (en forma de URLs), que es mas barato y practico
 ****
 **16. Crea un disparador automático para el sistema. Create una cuenta y configura en cron-jub.org**
 1. Entra al link [github.com/settings/tokens?type=beta](https://github.com/settings/tokens?type=beta)
-2. Dale clic a "Generate new token".
-3. En "Confirm access", confirma tu acceso (con tu contraseña o 2FA).
-4. En "Token name", escribe algo como "trigger-publishme"
-5. En "Expiration" → selecciona "No expiration"
-6. En "Repository access", marca "Only select repositories" → y en el desplegable, dale click a tu repositorio
-7. Baja hasta "Permissions" → dale clic a la pestaña "Repositories" (aparece junto a "Account") → dale clic a "Add permissions"
-8. Busca "Actions" en la lista → y cámbialo de "Read-only" a "Read and write"
-9. Baja y dale clic a "Generate token"
-10. Y luego dale nuevamente "Generate token"
-11. Copia el token que te muestra (empieza con "github_pat_...") y guárdalo en un lugar seguro — no lo vas a volver a ver después de esto, por eso cópialo y pégalo en algún lado
-12. Dale click al link [cron-job.org](https://cron-job.org). y créate una cuenta
-13. En el Panel, dale clic a "CREAR CRONJOB"
-14. En "Título", escribe algo como "Disparar PublishMe"
-15. En "Horario de ejecución", marca la opción "Cada" → cambia el número a 15 minutos.
-16. Dale clic a la pestaña "AVANZADO" (arriba, junto a "COMÚN").
-17. Baja hasta "Encabezados" → dale clic a "AÑADIR" dos veces, para crear estos dos encabezados:
+3. Dale clic a "Generate new token".
+4. En "Confirm access", confirma tu acceso (con tu contraseña o 2FA).
+5. En "Token name", escribe "trigger-publishme"
+6. En "Expiration" → selecciona "No expiration"
+7. En "Repository access", marca "Only select repositories" → y en el desplegable "Select Repositories", dale click a tu repositorio
+8. Baja hasta "Permissions" → dale clic a la pestaña "Repositories" → dale clic a "Add permissions"
+9. Busca "Actions" en la lista → y dale click
+10. Luego busca algo que diga "Read-only" → dale click y cambia de "Read-only" a "Read and write"
+11. Baja y dale clic a "Generate token"
+12. Dale nuevamente "Generate token"
+13. Copia el token (empieza con "github_pat_...") dandole al icono "Copiar", abre un bloc de notas → pegalo → y guarda ese bloc como "token_de_github" (no lo vas a volver a ver después de esto, por eso la importancia de guardarlo)
+14. Dale click al link [cron-job.org](https://cron-job.org). e inicia sesion o crea una cuenta
+15. En el Panel, dale clic a "CREAR CRONJOB"
+16. En "Título", escribe algo como "Disparar PublishMe"
+17. En "Horario de ejecución", marca la opción "Cada" → cambia el número a 15 minutos.
+18. Dale clic a la pestaña "AVANZADO" (arriba, junto a "COMÚN").
+19. Baja hasta "Encabezados" → dale clic a "AÑADIR" dos veces, para crear estos dos encabezados:
  Clave : Authorization - Valor : Bearer {TU_TOKEN} (escribe "Bearer"y seguido tu token "github_pat_..." )<br>
  Clave : Accept - Valor : application/vnd.github+json<br>
-18. En "Cuerpo de la solicitud", pega exactamente esto: "{"ref":"main"}"
-19. Baja hasta el final → y dale a "EJECUCIÓN DE PRUEBA" (si te sale "204 No Content", significa que lo hiciste muy bien ;) ).
-20. Luego cierra la ventana → y dale al botón naranja "Crear"
+20. En "Cuerpo de la solicitud", pega exactamente esto: "{"ref":"main"}"
+21. Baja hasta el final → y dale a "EJECUCIÓN DE PRUEBA" (si te sale "204 No Content", significa que lo hiciste muy bien ;) ).
+22. Luego cierra la ventana → y dale al botón naranja "Crear"
 Listo, acabamos de crear el disparador automático del sistema para que no estés activándolo todo el tiempo manualmente
 ****
 Listo, el sistema ya esta construido y la hora de Publicar contenido en Funcion al Rendimiento de tus reels (y olvidarse de las fechas)<br>
 acaba de comenzar...
 ****
-**Agrega tu primer reel a la cola de espera**
+**Aprende a como subir reels en el sistema**
 1. Entra a https://github.com/
 2. Donde dice "Top repositories" → dale click al Repositorio que se encuentra abajo de "Top repositories"
 3. Busca un archivo que dice "Formato para publicar reels en PublishMe"
