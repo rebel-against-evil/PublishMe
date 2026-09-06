@@ -228,14 +228,16 @@ Listo, con esto hiciste que el sistema tuviera la posibilidad de subir videos (e
 14. Dale click al link [cron-job.org](https://cron-job.org). e inicia sesion o crea una cuenta
 15. En el Panel, dale clic a "CREAR CRONJOB"
 16. En "Título", escribe algo como "Disparar PublishMe"
-17. En "Horario de ejecución", marca la opción "Cada" → cambia el número a 15 minutos.
-18. Dale clic a la pestaña "AVANZADO" (arriba, junto a "COMÚN").
-19. Baja hasta "Encabezados" → dale clic a "AÑADIR" dos veces, para crear estos dos encabezados:
- Clave : Authorization - Valor : Bearer {TU_TOKEN} (escribe "Bearer"y seguido tu token "github_pat_..." )<br>
+17. En "URL" pega este link "https://api.github.com/repos/TU_USUARIO/TU_REPO/actions/workflows/monitor.yml/dispatches" y remplaza el TU_USUARIO por tu nombre de usuario de github y el TU_REPO por el nombre de tu repositorio donde esta el sistema en github) (si tienes dudas: tienes dos opciones: o lo averiguas por ti mismo o me escribes para resolver el problema juntos)
+18. En "Horario de ejecución", marca la opción "Cada" → cambia el número a 15 minutos.
+19. Dale clic a la pestaña "AVANZADO" (arriba, junto a "COMÚN").
+20. Baja hasta "Encabezados" → dale clic a "AÑADIR" dos veces, para crear estos dos encabezados:
+ Clave : Authorization - Valor : Bearer TU_TOKEN (remplaaza TU_TOKEN por el "token_de_github" (el que inicia con "github_pat_..." )<br>
  Clave : Accept - Valor : application/vnd.github+json<br>
-20. En "Cuerpo de la solicitud", pega exactamente esto: "{"ref":"main"}"
-21. Baja hasta el final → y dale a "EJECUCIÓN DE PRUEBA" (si te sale "204 No Content", significa que lo hiciste muy bien ;) ).
-22. Luego cierra la ventana → y dale al botón naranja "Crear"
+21. En "Método de solicitud" → cambia de "GET" a "POST"
+21. En "Cuerpo de la solicitud", pega exactamente esto: {"ref":"main"}
+22. Baja hasta el final → y dale a "EJECUCIÓN DE PRUEBA" (si te sale "204 No Content", significa que lo hiciste muy bien ;) ).
+23. Luego cierra la ventana → y dale al botón naranja "Crear"
 Listo, acabamos de crear el disparador automático del sistema para que no estés activándolo todo el tiempo manualmente
 ****
 Listo, el sistema ya esta construido y la hora de Publicar contenido en Funcion al Rendimiento de tus reels (y olvidarse de las fechas)<br>
