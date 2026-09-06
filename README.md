@@ -241,18 +241,18 @@ Listo, con esto hiciste que el sistema tuviera la posibilidad de subir videos (e
 Listo, acabamos de crear el disparador automático del sistema para que no estés activándolo todo el tiempo manualmente
 ****
 Listo, el sistema ya esta construido y la hora de Publicar contenido en Funcion al Rendimiento de tus reels (y olvidarse de las fechas)<br>
-acaba de comenzar...
+esta por comenzar...
 ****
 **Aprende a como subir reels en el sistema**
 1. Entra a https://github.com/
 2. Donde dice "Top repositories" → dale click al Repositorio que se encuentra abajo de "Top repositories"
 3. Busca un archivo que dice "Formato para publicar reels en PublishMe"
-4. Copia tu cantidad de formatos-reels que quieres usar o crear uno como lo dice el archivo
+4. Copia tu cantidad de formatos-reels que quieres usar o crear como lo dice el archivo (lee el archivo)
 7. Busca un archivo llamado "reel_queue.json" → y dale click
-8. Busca un lapiz en la parte derecha (cuando le pones el cursor encima aparece un texto que dice "edit this file") → y dale click
+8. Busca un Lápiz (en la parte derecha, cuando le pones el cursor encima aparece un texto que dice "edit this file") → y dale click
 9. Pega lo que copiaste o creaste en "Formato para publicar reels en PublishMe"
-10. Donde dice URL_DEL_VIDEO_DEL_REEL hay va la Url de tu video que quieres subir (entra a cludiinary → selecciona el bton subir en la parte derecha superior → sube tu video → aparecera tu video en la pantalla luego seleccionalo dandole dobe click → luego dale a "Compartir" o "Share" → luego dale a "Empotrar" → luego dale a "Configuracion del video" y luego a "Enlace" y luego copia ese link que te aparece abajo → ese es tu URL_DEL_VIDEO_DEL_REEL) y remplaza ese texto "URL_DEL_VIDEO_DEL_REEL" por el url que conseguimos
-11. Donde dice TEXTO_QUE_APARECERA_EN_LA_DESCRIPCION pones lo que vas a poner en la descripción de tu video, remplaza ese TEXTO_QUE_APARECERA_EN_LA_DESCRIPCION por la descripción de tu video
+10. Donde dice URL_DEL_VIDEO_DEL_REEL hay va la Url de todos tus videos que quieras subir (para obtener las URLs de tus videos: entra a cloudiinary → Selecciona a "Activos" (se ubica en la parte izquierda) → busca el boton azul "Subir" y seleccionalo → sube tu video → espera un rato, y luego aparecerá tu video en la pantalla → seleccionalo dandole doble click → luego haz click en "Compartir" ("Share") → luego dale a "Empotrar" → desliza abajo y encontrarás un link → ¡¡¡ESE LINK ES EL TU VIDEO CONVERTIDO EN UN URL!!!) copia ese link → y reemplaza el "URL_DEL_VIDEO_DEL_REEL" por tu URL de tu video que conseguimos
+11. Donde dice TEXTO_QUE_APARECERA_EN_LA_DESCRIPCION va la descripción de tu video, remplaza ese TEXTO_QUE_APARECERA_EN_LA_DESCRIPCION por la descripción de tu video
 12. Luego le das a "Commit changes o Confirmar los cambios"
 Listo, haz esto con cada video y ya estarás subiendo tus videos al sistema y se irán publicando en funcion al rendimineto<br>
 ****
@@ -273,7 +273,13 @@ Ahora es hora de configurar el sistema para que decida en función a tus criteri
    en mis contenidos como creador de<br>
    contenido.<br>
    No hay valores "correctos" universales — Experimenta<br>
-   con los tuyos.<br>
+   con los tuyos.<br><br>
+
+   ¿Y como saber que cuales son mis números como creador?<br>
+   Pues eso depende, pues tus números toman forma en función a tu criterio, experiencia e información como creador de contenido<br>
+   Entonces lo mas inteligente es no darte números o decirte que números poner<br>
+   Sino que lo inteligente esta en decirte que significa esos conceptos, y en función a eso, tu mismo descubres tus números<br><br>
+
 
    **SLOPE_THRESHOLD**<br>
 
