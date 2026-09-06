@@ -157,7 +157,7 @@ Listo, ahora ya tienes creado el Bot de telegram, y tambien el TELEGRAM_BOT_TOKE
 8. Copia este link "https://api.telegram.org/bot{TELEGRAM_BOT_TOKEN}/getUpdates" y remplaza el "{TELEGRAM_BOT_TOKEN}" por el TELEGRAM_BOT_TOKEN
 9. Luego le das enter
 10. Luego le das a la casilla de "Dar formato al texto", quedando en ✔
-11. Y te debe salir:<br><br> {<br>
+11. Y te debe salir:<br><br><br> {<br>
                        "ok": true,<br>
                        "result": [ <br>
                          { <br>
@@ -170,13 +170,13 @@ Listo, ahora ya tienes creado el Bot de telegram, y tambien el TELEGRAM_BOT_TOKE
                                "first_name": "Rendal", <br>
                                ... <br>
                              }, <br>
-                             ... <br><br>
-   (Si no te sale eso y al contrario te sale:<br><br>
+                             ... <br><br><br>
+   (Si no te sale eso y al contrario te sale:<br><br><br>
                           {<br>
                            "ok": false,<br>
                            "error_code": 401,<br>
                           "description": "Unauthorized"<br>
-                          }<br><br><br>
+                          }<br><br><br><br>
                           Revisa el "https://api.telegram.org/bot{TELEGRAM_BOT_TOKEN}/getUpdates" probablemte lo copiaste mal "X")
 
 12. El número dentro de **"chat": {"id": ...}** es tu TELEGRAM_CHAT_ID → cópialo y abre un bloc de notas y pegalo
