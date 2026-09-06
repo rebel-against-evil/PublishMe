@@ -160,14 +160,7 @@ For a description of the Bot API, see this page: https://core.telegram.org/bots/
 2. Copia este link "https://api.telegram.org/bot{TELEGRAM_BOT_TOKEN}/getUpdates" y remplaza el "{TELEGRAM_BOT_TOKEN}" por el TELEGRAM_BOT_TOKEN
 3. Luego le das enter
 4. Luego le das a la casilla de "Dar formato al texto", quedando en ✔
-5. (Si te bota:<br>
-                          {<br>
-                           "ok": false,<br>
-                           "error_code": 401,<br>
-                          "description": "Unauthorized"<br>
-                          }<br><br>
-                          Revisa el "https://api.telegram.org/bot{TELEGRAM_BOT_TOKEN}/getUpdates" probablemte lo copiaste mal "X")
-6. Te deberia salir: {<br>
+5. Y te debe salir: {<br>
                        "ok": true,<br>
                        "result": [ <br>
                          { <br>
@@ -181,6 +174,14 @@ For a description of the Bot API, see this page: https://core.telegram.org/bots/
                                ... <br>
                              }, <br>
                              ... <br>
+   (Si no te sale eso y al contrario te sale:<br>
+                          {<br>
+                           "ok": false,<br>
+                           "error_code": 401,<br>
+                          "description": "Unauthorized"<br>
+                          }<br><br>
+                          Revisa el "https://api.telegram.org/bot{TELEGRAM_BOT_TOKEN}/getUpdates" probablemte lo copiaste mal "X")
+
 7. El número dentro de **"chat": {"id": ...}** es tu TELEGRAM_CHAT_ID → cópialo y abre un bloc de notas y pegalo
 Listo ya tenemos el TELEGRAM_CHAT_ID, que es la 5ta variable de las 5 variables que necesita el sistema para funcionar
 Listo con esto ya tenemos las 5 variables ahora es momento de dejar de buscar y empezar a construir
