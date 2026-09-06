@@ -18,7 +18,7 @@
 3. Ahora vuelve aca y dale clic a este enlace " https://github.com/ChatoLicano/PublishMe"
 4. Luego dale clic al botón verde que dice "Use this template"
 5. Luego dale a la opción "Create a new repository" → Escribe en "Repository name" PublishMe
-6. Ve a Configuración → y cambia de "Public" a "Private"<br>
+6. Ve a Configuración → y cambia de "Public" a "Private"<br><br>
 Listo ya tienes una copia oficial de PublishMe, dentro de tu ordenador
 ****
 **2. Configurar tu Instagram como Empresa**
@@ -28,7 +28,7 @@ Listo ya tienes una copia oficial de PublishMe, dentro de tu ordenador
 4. Busca en la lista "Tipo de cuenta y herramientas"
 5. Selecciona "Tipo de Cuenta"
 6. Busca "Cambiar tipo de cuenta" (esta en letras pequeñas y en azul)
-7. Selecciona "Cambiar a cuenta de empresa"<br>
+7. Selecciona "Cambiar a cuenta de empresa"<br><br>
 Listo, ahora ya tenemos tu cuenta de instagram como empresa
 ****
 **3. Crear una Fan Page (Pagina de Facebook)**
@@ -42,7 +42,7 @@ Listo, ahora ya tenemos tu cuenta de instagram como empresa
 8. Ponle un NOMBRE y escribe en categoría "Creador Digital" (cualquiera categoría, el tipo de categoría no interesa por ahora)
 9. Dale a "Crear Página"
 10. Dale full a Siguiente y luego a Omitir → hasta que te aparezca "Listo"
-11. Y le das a "Listo"<br>
+11. Y le das a "Listo"<br><br>
 Ahora ya tenemos la Fan Page
 ****
 **4. Vincular tu Instagram configurado como Empresa y la Fan Page**
@@ -56,7 +56,7 @@ Ahora ya tenemos la Fan Page
 10. Inicia sesión con la cuenta de instagram donde quieres usar PublishMe
 11. Dale "Agregar"
 12. Te va a salir una ventana. Dale a la "X" (cerrarla)
-Ahora ya tienes conectado tu instagram (donde quieres usar PublishMe) con la Fan Page"<br>
+Ahora ya tienes conectado tu instagram (donde quieres usar PublishMe) con la Fan Page"<br><br>
 Listo, esto nos va a permitir crear una app en meta for developers para poder así obtener los permisos necesarios que nuestro sistema requiere para arrancar
 ****
 **5. Crea tu propia app en Meta for Developers**
@@ -71,7 +71,7 @@ Listo, esto nos va a permitir crear una app en meta for developers para poder as
 9. Y dale a "Siguiente".
 10. En "Negocio", selecciona el portafolio donde se encuentra tu cuenta de Instagram donde quieres usar PublishMe (si no sabes el portafolio donde se encuentra tu cuenta de instagram donde quieres usar PublishMe, desvincula y vincula tu cuenta de instagram que quieres usar con tu fan page, ...y en el proceso de vincular..., en una ventana te mostrará el nombre del portafolio donde se encuentra tu cuenta de instagram)
 11. Luego en "Requisitos" dale a "Siguiente"
-12. En "Resumen", revisa que todo esté bien → y luego de que hayas revisado → dale a "Crear app" (puede pedirte tu contraseña de Facebook para confirmar).<br>
+12. En "Resumen", revisa que todo esté bien → y luego de que hayas revisado → dale a "Crear app" (puede pedirte tu contraseña de Facebook para confirmar).<br><br>
 Listo, ahora esta app sera un medio que nos permitira agregar los 5 permisos necesarios para que el sistema arranque
 ****
 **6. Agrega los permisos necesarios**
@@ -80,7 +80,7 @@ Listo, ahora esta app sera un medio que nos permitira agregar los 5 permisos nec
 3. Busca un boton azul "Add all required permissions" → y dale click
 4. Ahora busca en la parte izquierda algo que diga "Permisos y funciones" → y dale click
 5. Busca en la lista "instagram_business_manage_insights" → y dale clcik al "+ Agregar" que esta a su lado (si te bota error, insiste) → y te aparecera "Listo para la prueba" y "Acciones" lo que quiere decir se logro con eito
-6. Busca en la lista "instagram_business_content_publish" → y dale clcik al "+ Agregar" que esta a su lado (si te bota error, insiste) → y te aparecera "Listo para la prueba" y "Acciones" lo que quiere decir se logro con exito<br>
+6. Busca en la lista "instagram_business_content_publish" → y dale clcik al "+ Agregar" que esta a su lado (si te bota error, insiste) → y te aparecera "Listo para la prueba" y "Acciones" lo que quiere decir se logro con exito<br><br>
 Listo, con esto ya tenemos los 5 permisos habilitados para que el sistema arranque
 ****
 **7. Agrégate como tu propio "Instagram tester"**
@@ -94,7 +94,7 @@ Listo, con esto ya tenemos los 5 permisos habilitados para que el sistema arranq
 9. Dale a las "tres rayitas" → "Configuración" → busca y entra a "Permisos del sitio web"
 10. Dale a "Aplicaciones y sitios web"
 11. Dale a "Invitaciones para evaluadores"
-12. Y te aparecerá unos párrafos de texto (si quieres lo lees) → y luego de leerlo dale a "Aceptar"<br>
+12. Y te aparecerá unos párrafos de texto (si quieres lo lees) → y luego de leerlo dale a "Aceptar"<br><br>
 Listo, ahora con este paso, ya no te a aparecerá el error conocido de "Rol de desarrollador insuficiente" cuando vayamos a generar el token para nuestro sistema
 ****
 **8. Genera tu token de acceso**
@@ -107,7 +107,7 @@ Listo, ahora con este paso, ya no te a aparecerá el error conocido de "Rol de d
 10. Luego dale al boton "Copiar"
 11. Abre un bloc de notas y haz CTRL + V
 12. Y nombra lo que pegaste, poniéndole al lado "IG_ACCESS_TOKEN"
-13. Listo, acabas de obtener EL TOKEN DE ACCESO y darle un nombre a ese token para no perderlo. No lo compartas con nadie y GUARDA EL BLOC DE NOTAS!!!<br>
+13. Listo, acabas de obtener EL TOKEN DE ACCESO y darle un nombre a ese token para no perderlo. No lo compartas con nadie y GUARDA EL BLOC DE NOTAS!!!<br><br>
 Ahora ya tienes el TOKEN DE ACCESO que es la 1ra variable de las 5 variables que necesita el sistema para funcionar
 ****
 **9. Consigue tu IG_USER_ID**
@@ -117,7 +117,7 @@ Ahora ya tienes el TOKEN DE ACCESO que es la 1ra variable de las 5 variables que
 4. Dale a "Casos de uso" → y luego "Personalizar"
 5. Baja hasta la sección "2. Generar tokens de acceso" → dale al icono de desplegar "⌄"
 6. Donde esta el nombre de tu Cuenta de Instagram → fijate en el número de 17 digitos que se encuentra debajo, cópialo y pégalo en un bloc de notas y nombralo como "IG_USER_ID" (Es tu IG_USER_ID) 
-7. Listo, acabas de obtener tu IG_USER_ID<br>
+7. Listo, acabas de obtener tu IG_USER_ID<br><br>
 Listo, ya tienes el IG_USER_ID, la 2da variable de las 5 variables que necesita el sistema para funcionar 
 ****
 **10. Consigue tu REEL_MEDIA_ID**
@@ -127,7 +127,7 @@ Listo, ya tienes el IG_USER_ID, la 2da variable de las 5 variables que necesita 
 4. En la barra donde dice "me?fields=id,name", remplazala y escribe: "me/media"
 5. Dale clic en "Enviar". (Si te da un error, revisa que el dominio a la izquierda de la barra diga .instagram.com, no .facebook.com — cámbialo con el desplegable si hace falta.)
 6. Te va a devolver una lista de tus publicaciones recientes con sus " "id": "...." "
-7. Copia el NUMERO del primer " "id": "....." " (el más arriba de todos) → pégalo y guardalo como "REEL_MEDIA_ID" en un bloc de notas<br>
+7. Copia el NUMERO del primer " "id": "....." " (el más arriba de todos) → pégalo y guardalo como "REEL_MEDIA_ID" en un bloc de notas<br><br>
 Listo, ahora ya tienes el REEL_MEDIA_ID, la 3ra variable de las 5 variables que necesita el sistema para funcionar
 ****
 **11. Crea tu bot de Telegram que te notificara de todo lo que le ocurra al sistema y genera el TELEGRAM_BOT_TOKEN**
@@ -143,7 +143,7 @@ Use this token to access the HTTP API: **547856584:BBCzaFttr985rf5LlHP7qJ02T37So
 Keep your token secure and store it safely, it can be used by anyone to control your bot.
 For a description of the Bot API, see this page: https://core.telegram.org/bots/api "
 9. COPIA lo que este OCUPANDO "**547856584:BBCzaFttr985rf5LlHP7qJ02T37SoruYEOVS**" ese es tu TELEGRAM_BOT_TOKEN
-10. Nombralo como "TELEGRAM_BOT_TOKEN" en un bloc de notas y Guardalo<br>
+10. Nombralo como "TELEGRAM_BOT_TOKEN" en un bloc de notas y Guardalo<br><br>
 Listo, ahora ya tienes creado el Bot de telegram, y tambien el TELEGRAM_BOT_TOKEN, que es la 4ta variable de las 5 variables que necesita el sistema para funcionar
 ****
 **12. Genera el TELEGRAM_CHAT_ID**
@@ -180,7 +180,7 @@ Listo, ahora ya tienes creado el Bot de telegram, y tambien el TELEGRAM_BOT_TOKE
                           Revisa el "https://api.telegram.org/bot{TELEGRAM_BOT_TOKEN}/getUpdates" que te dije que modificaras, seguramente lo hiciste mal)
 
 12. El número dentro de **"chat": {"id": ...}** es tu TELEGRAM_CHAT_ID → cópialo y abre un bloc de notas y pegalo<br>
-Listo ya tenemos el TELEGRAM_CHAT_ID, que es la 5ta variable de las 5 variables que necesita el sistema para funcionar<br>
+Listo ya tenemos el TELEGRAM_CHAT_ID, que es la 5ta variable de las 5 variables que necesita el sistema para funcionar<br><br>
 Listo con esto ya tenemos las 5 variables ahora es momento de dejar de buscar y empezar a construir
 ****
 **13. Configura los 5 Secrets en GitHub**
