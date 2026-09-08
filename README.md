@@ -8,156 +8,151 @@
 3. Una cuenta de Cloudinary (gratis) para alojar tus vídeos con un enlace público.
 4. Una cuenta de Telegram (para recibir notificaciones).
 5. Una cuenta de cron-job.org (gratis) para disparar el sistema cada 15 minutos con precisión.
-6. Media hora a una hora de tu tiempo, sin prisa, la primera vez.
 ****
 ### INSTALACION PASO A PASO
 
 **1. USA ESTA **PLANTILLA** DE GITHUB**
-1. Entra a https://github.com/login
-2. Inicia sesión con tu cuenta de github o registrate
-3. Ahora vuelve aca y dale clic a este enlace " https://github.com/ChatoLicano/PublishMe"
-4. Luego dale clic al botón verde que dice "Use this template"
-5. Luego dale a la opción "Create a new repository" → Escribe en "Repository name" PublishMe
-6. Ve a Configuración → y cambia de "Public" a "Private"<br><br>
+1. Dale clic a este enlace " https://github.com/ChatoLicano/PublishMe "
+2. Luego dale clic al botón verde que dice "Usar esta plantilla"
+3. Luego dale a la opción Crear un nuevo repositorio → Selecciona Nombre del repositorio y escríbele en el espacio un nombre a tu copia de PublishMe → Ve a Configuración → Elige visibilidad
+4. Cambia de "Público" a "Privado" Esto crea una copia 100% tuya e independiente de PublishMe.
 Listo ya tienes una copia oficial de PublishMe, dentro de tu ordenador
 ****
 **2. Configurar tu Instagram como Empresa**
-1. Entra a la cuenta de instagram donde quieres usar PublishMe (te recomiendo entrar por tu celular)
-2. En la parte de abajo donde esta el Feed, Reel, Mensajes Directos, Explorar y Perfil, dale a "Perfil"
+1. En la cuenta de instagram donde quieres usar PublishMe, entra (entra por celular)
+2. En la parte de abajo donde esta el "Feed", "Reel", "Mensajes Directos", "Explorar" y "Perfil", dale a "Perfil"
 3. Dale a las Tres Rayitas (Configuración) en la parte superior derecha
-4. Busca en la lista "Tipo de cuenta y herramientas"
+4. Busca en configuraciones y selecciona "Tipo de cuenta y herramientas"
 5. Selecciona "Tipo de Cuenta"
-6. Busca "Cambiar tipo de cuenta" (esta en letras pequeñas y en azul)
-7. Selecciona "Cambiar a cuenta de empresa"<br><br>
+6. Busca "Cambiar tipo de cuenta" (esta en letra pequeña y azul)
+7. Selecciona "Cambiar a cuenta de empresa"
 Listo, ahora ya tenemos tu cuenta de instagram como empresa
 ****
 **3. Crear una Fan Page (Pagina de Facebook)**
-1. Inicia sesion en Facebook
+1. Entra en Facebook
 2. Selecciona el Menú de Facebook (de icono ⌘)
 3. Dale haga clic en "Páginas"
 4. Dale a "+ Crear página"
 5. Dale a "Pagina Publica"
-6. Dale a "Siguiente"
-7. Dale a "Empezar"
-8. Ponle un NOMBRE y escribe en categoría "Creador Digital" (cualquiera categoría, el tipo de categoría no interesa por ahora)
-9. Dale a "Crear Página"
-10. Dale full a Siguiente y luego a Omitir → hasta que te aparezca "Listo"
-11. Y le das a "Listo"<br><br>
-Ahora ya tenemos la Fan Page
+6. Dale a "Empezar"
+7. Ponle un Nombre y escribe una categoría (cualquiera categoría, el tipo de categoría no interesa por ahora)
+8. Dale a "Crear Página"
+9. Dale full a Siguiente y Omitir y al final dale
+Listo ahora ya tenemos la Página de Facebook
 ****
 **4. Vincular tu Instagram configurado como Empresa y la Fan Page**
-1. Entra a tu Fan Page (Inicia sesion en Facebook → haz click a tu Perfil → Selecciona tu Fan Page)
-4. Dale a "Configuración" en lado parte izquierda
-5. En la lista busca "Cuentas vinculadas"
+1. Entra en Facebook
+2. Dale click a Perfil que se encuentra en la parte superior derecha
+3. Selecciona la Página de Facebook
+4. Dale a "Configuración" que se encuentra al lado izquierdo
+5. En Configuración y privacidad busca "Cuentas vinculadas"
 6. Selecciona "Instagram No conectado"
 7. Haz clic en "Conectar cuenta"
 8. Haz clic en "Conectar"
 9. Haz click en "Continuar"
-10. Inicia sesión con la cuenta de instagram donde quieres usar PublishMe
+10. Entra con la cuenta de instagram en la que vas a usar PublishMe
 11. Dale "Agregar"
-12. Te va a salir una ventana. Dale a la "X" (cerrarla)
-Ahora ya tienes conectado tu instagram (donde quieres usar PublishMe) con la Fan Page"<br><br>
-Listo, esto nos va a permitir crear una app en meta for developers para poder así obtener los permisos necesarios que nuestro sistema requiere para arrancar
+12. Dale a la "X" (cierrala) Ahora ya tienes conectado tu instagram donde vas a usar PublishMe y la página de facebook que hemos creado más antes"
+Listo, ahora ya tenemos vinculado tu Instagram donde vas a usar publishme con la Fan Page, esto nos va a permitir crear una app en meta for developers para asi obtener los permisos necesarios para que el sistema pueda arrancar
 ****
 **5. Crea tu propia app en Meta for Developers**
 1. Ve a [developers.facebook.com](https://developers.facebook.com) y entra con tu cuenta de Facebook.
-2. Dale clic a "Mis apps" que se encuentra en la parte superior derecha.
+2. Arriba a la derecha, dale clic a "Mis apps".
 3. Dale clic a "Crear app".
-4. En "Nombre de la app", escribe un nombre para tu app (anota el nombre en algun lado, lo necesitaremos para el paso "8. Consigue tu IG_USER_ID")
-5. En "Correo electrónico de contacto de la app" pon un correo para que MetaForDevelopers te pueda enviar notficaciones
-6. Luego dale a "Siguiente".
-7. Luego dale clic a "Administración de contenido".
-8. De la lista que aparece a la derecha, marca la casilla "Administrar mensajes y contenido en Instagram"
-9. Y dale a "Siguiente".
-10. En "Negocio", selecciona el portafolio donde se encuentra tu cuenta de Instagram donde quieres usar PublishMe (si no sabes el portafolio donde se encuentra tu cuenta de instagram donde quieres usar PublishMe, desvincula y vincula tu cuenta de instagram que quieres usar con tu fan page, ...y en el proceso de vincular..., en una ventana te mostrará el nombre del portafolio donde se encuentra tu cuenta de instagram)
-11. Luego en "Requisitos" dale a "Siguiente"
-12. En "Resumen", revisa que todo esté bien → y luego de que hayas revisado → dale a "Crear app" (puede pedirte tu contraseña de Facebook para confirmar).<br><br>
-Listo, ahora esta app sera un medio que nos permitira agregar los 5 permisos necesarios para que el sistema arranque
+4. En "Detalles de la app", escribe un nombre (anota el nombre algun lado, porque lo vamos a utilizar en el paso "8. Consigue tu IG_USER_ID") y tu correo de contacto → dale "Siguiente".
+5. En "Casos de uso", en el menú de la izquierda "Filtrar por", dale clic a "Administración de contenido".
+6. De la lista que aparece a la derecha, marca la casilla de "Administrar mensajes y contenido en Instagram" → dale "Siguiente".
+7. En "Negocio", selecciona la cuenta de Instagram donde donde quieres usar PublishMe
+8. En "Requisitos" dale a "Siguiente"
+9. En "Resumen", revisa que todo esté bien → dale "Crear app" (puede pedirte confirmar tu contraseña de Facebook).
+Listo, ahora esto nos va a permitir agregar los 5 permisos necesarios para que el sistema arranque
 ****
 **6. Agrega los permisos necesarios**
 1. En el panel de tu app, busca en el menú izquierdo "Casos de uso" (al ícono de lápiz ✏️) → y dale click
 2. Dale click a "Personalizar".
 3. Busca un boton azul "Add all required permissions" → y dale click
 4. Ahora busca en la parte izquierda algo que diga "Permisos y funciones" → y dale click
-5. Busca en la lista "instagram_business_manage_insights" → y dale clcik al "+ Agregar" que esta a su lado (si te bota error, insiste) → y te aparecera "Listo para la prueba" y "Acciones" lo que quiere decir se logro con eito
-6. Busca en la lista "instagram_business_content_publish" → y dale clcik al "+ Agregar" que esta a su lado (si te bota error, insiste) → y te aparecera "Listo para la prueba" y "Acciones" lo que quiere decir se logro con exito<br><br>
+5. Busca en la lista "instagram_business_manage_insights" y dale clcik al "+ Agregar" que esta alado suyo
+6. Busca en la lista "instagram_business_content_publish" y dale clcik al "+ Agregar" que esta alado suyo
 Listo, con esto ya tenemos los 5 permisos habilitados para que el sistema arranque
 ****
 **7. Agrégate como tu propio "Instagram tester"**
 1. Dale clic a "Roles de la app" (esta en el lado izquierdo, entre los iconos de Rueda y Campana)
 2. Dale clck a "Roles".
 3 Dale clic al botón azul "Agregar personas".
-4. En la ventana que se abre, marca la casilla "Evaluador de Instagram" ("Evaluador de Instagram", NO "Evaluador")
-6. En el campo de búsqueda de abajo → escribe el nombre de usuario de la cuenta de Instagram donde quieres usar PublishMe → luego te aparecerá tu cuenta de instagram → hazle click
+4. En la ventana que se abre, marca la casilla marca "Evaluador de Instagram" (NO el "Evaluador" sino "Evaluador de Instagram")
+6. En el campo de búsqueda de abajo → escribe el nombre de usuario de la cuenta de Instagram donde quieres usar PublishMe (el mismo que configuraste como Empresa en el paso 2) → luego te aparecerá tu cuenta de instagram → hazle click a tu cuenta de instagram.
 7. Dale clic a "Agregar".
-8. Ahora entra a https://www.instagram.com/ (te recomiendo en computadora) e inicia sesión con la cuenta de instagram donde quieres usar PublishMe.
+8. Ahora entra a https://www.instagram.com/ e inicia sesion con la misma cuenta de instagram.
 9. Dale a las "tres rayitas" → "Configuración" → busca y entra a "Permisos del sitio web"
 10. Dale a "Aplicaciones y sitios web"
 11. Dale a "Invitaciones para evaluadores"
-12. Y te aparecerá unos párrafos de texto (si quieres lo lees) → y luego de leerlo dale a "Aceptar"<br><br>
-Listo, ahora con este paso, ya no te a aparecerá el error conocido de "Rol de desarrollador insuficiente" cuando vayamos a generar el token para nuestro sistema
+12. Y te aparecerá unos párrafos de texto (si quieres lo lees) → y luego de leerlo dale a "Aceptar"
+Listo, ahora con este paso, ya no te a aparecerá el error de "Rol de desarrollador insuficiente" cuando vayamos a generar el token
 ****
 **8. Genera tu token de acceso**
 1. Vuelve a darle a "Casos de uso" → "Personalizar"
-2. → y dale a las letras azul "Generar token"
-3. Inicia sesion con la cuenta de instagram donde quieres usar PublishMe
-4. Te va a aparecer una pantalla con permisos en ella → dale "Permitir".
+2. Baja hasta la sección "2. Generar tokens de acceso" → y dale a "Agregar cuenta" → y luego dale a "Continuar" en el aviso que aparece
+3. Se abre una ventana de Instagram: Inicia sesion con la cuenta de instagram donde quieres usar PublishMe
+4. Te va a aparecer una pantalla pidiendo permisos — dale "Permitir".
+5. Luego dale al texto en azul que dice "Generar token"
+6. Inicia sesion nuavemente con la cuenta de instagram donde quieres usar PublishMe
+7. Te va a aparecer una nueva pantalla con otros permisos (si quieres lo lees) → y luego le das a "Permitir"
 8. Te va aparecerá una tarjeta
-9. Dale click a la casilla "Entendido"
-10. Luego dale al boton "Copiar"
-11. Abre un bloc de notas y haz CTRL + V
-12. Y nombra lo que pegaste, poniéndole al lado "IG_ACCESS_TOKEN"
-13. Listo, acabas de obtener EL TOKEN DE ACCESO y darle un nombre a ese token para no perderlo. No lo compartas con nadie y GUARDA EL BLOC DE NOTAS!!!<br><br>
+9. Dale click a la casilla alado de "Entendido"
+10. Dale al boton "Copiar"
+11. Abre un bloc de notas y pega eso que copiaste
+12. Listo, acabas de obtener EL TOKEN DE ACCESO. Guarda el bloc de notas y no lo compartas con nadie
 Ahora ya tienes el TOKEN DE ACCESO que es la 1ra variable de las 5 variables que necesita el sistema para funcionar
 ****
 **9. Consigue tu IG_USER_ID**
-1. Ve a [developers.facebook.com](https://developers.facebook.com)
+1. Ve a [developers.facebook.com](https://developers.facebook.com) y entra con tu cuenta de Facebook.
 2. Arriba a la derecha, dale clic a "Mis apps".
 3. Selecciona la app que hemos creado
 4. Dale a "Casos de uso" → y luego "Personalizar"
-5. Baja hasta la sección "2. Generar tokens de acceso" → dale al icono de desplegar "⌄"
-6. Donde esta el nombre de tu Cuenta de Instagram → fijate en el número de 17 digitos que se encuentra debajo, cópialo y pégalo en un bloc de notas y nombralo como "IG_USER_ID" (Es tu IG_USER_ID) 
-7. Listo, acabas de obtener tu IG_USER_ID<br><br>
-Listo, ya tienes el IG_USER_ID, la 2da variable de las 5 variables que necesita el sistema para funcionar 
+5. Baja hasta la sección "2. Generar tokens de acceso"
+6. En "Cuenta de Instagram" fijate que hay un numero largo de 17 numeros, cópialo y pégalo a un bloc de notas
+7. Listo, acbas de obtener tu IG_USER_ID
+Listo, ahora ya tenenos el IG_USER_ID, que es la 2da variable de las 5 variables que necesita el sistema para funcionar 
 ****
 **10. Consigue tu REEL_MEDIA_ID**
 1. Haz click a este enlace [Graph API Explorer](https://developers.facebook.com/tools/explorer)
-2. Donde dice "App de Meta" (a la derecha - en letras chiquitas) → elige la App que Creaste (el nombre de tu app que creamos) → Selecciona tu app
-3. En el campo "Token de acceso", pega el IG_ACCESS_TOKEN (que obtuvimos en el paso 8. **Genera tu token de acceso**)
-4. En la barra donde dice "me?fields=id,name", remplazala y escribe: "me/media"
-5. Dale clic en "Enviar". (Si te da un error, revisa que el dominio a la izquierda de la barra diga .instagram.com, no .facebook.com — cámbialo con el desplegable si hace falta.)
-6. Te va a devolver una lista de tus publicaciones recientes con sus " "id": "...." "
-7. Copia el NUMERO del primer " "id": "....." " (el más arriba de todos) → pégalo y guardalo como "REEL_MEDIA_ID" en un bloc de notas<br><br>
-Listo, ahora ya tienes el REEL_MEDIA_ID, la 3ra variable de las 5 variables que necesita el sistema para funcionar
+2. En "App de Meta" (panel derecho - en letras chiquitas) → elige la App que Creaste (en el paso 5. **Crea tu propia app en Meta for Developers**)
+3. Selecciona el nombre de tu app
+4. En el campo "Token de acceso", pega el TOKEN DE ACCESO que copiamos en el bloc de notas (paso 8. **Genera tu token de acceso**)
+5. En la barra de consulta (donde dice algo como "me?fields=id,name"), bórrala y escribe: "me/media" → dale clic en "Enviar". (Si te da un error, revisa que el dominio a la izquierda de la barra diga .instagram.com, no .facebook.com — cámbialo con el desplegable si hace falta.)
+6. Te va a devolver una lista de tus publicaciones recientes con sus IDs
+7. Copia el primer ID el que se encuentra mas arriba → y pégalo en un bloc de notas
+Listo, ahora ya tienes el REEL_MEDIA_ID, que es la 3ra variable de las 5 variables que necesita el sistema para funcionar
 ****
 **11. Crea tu bot de Telegram que te notificara de todo lo que le ocurra al sistema y genera el TELEGRAM_BOT_TOKEN**
-1. Instala Telegram e inicia sesion o create una cuenta
-2. Dale al Buscador "la Lupa"
+1. Instala Telegram y crea una cuenta o inicia sesion
+2. Dale a la "lupa"
 3. Y escribe "botfather"
-4. Selecciona la cuenta que diga "BotFather" (con el icono de "cuenta verificada") → y dale clic
-5. Escribe "/start" → luego te responderá → y luego le escribes nuevamente "/newbot"
+4. Selecciona una cuenta que diga "BotFather y con una icono de cuenta verificada" (BotFather es una cuenta verificada por telegram) → dale clic
+5. Escribe "/start" luego te respondera → y tu escrbiras "/newbot"
 6. Luego te dira "Bien. Ahora elijamos un nombre de usuario para tu bot. Debe terminar en «bot». Por ejemplo: TetrisBot o tetris_bot."
-7. Dale un nombre a tu bot con un nombre y luego añadele ´bot´ al final → (te puede botar "Sorry, this username is invalid") (Prueba con todo para que te admita)
+7. Nombra a tu bot con un nombre y luego añadele ´bot´ → debe terminar en "bot" sino BotFather te votara "Sorry, this username is invalid" (Anecdota: he puesto AutomatizacionReelsBot y me boto error, puse lo mismo insistiendole y me boto error nuevamente, probe con "MiNombre"ReelMonitor_bot y me acepto y me respondio)
 8. Te enviara un mensaje que se vera asi " Done! Congratulations on your new bot. You will find it at t.me/"MiNombre"ReelMonitor_bot. You can now add a description, about section and profile picture for your bot, see /help for a list of commands. By the way, when you've finished creating your cool bot, ping our Bot Support if you want a better username for it. Just make sure the bot is fully operational before you do this.
-Use this token to access the HTTP API: **547856584:BBCzaFttr985rf5LlHP7qJ02T37SoruYEOVS**  
+Use this token to access the HTTP API:
+  **547856584:BBCzaFttr985rf5LlHP7qJ02T37SoruYEOVS**  
 Keep your token secure and store it safely, it can be used by anyone to control your bot.
 For a description of the Bot API, see this page: https://core.telegram.org/bots/api "
-9. COPIA lo que este OCUPANDO "**547856584:BBCzaFttr985rf5LlHP7qJ02T37SoruYEOVS**" ese es tu TELEGRAM_BOT_TOKEN
-10. Nombralo como "TELEGRAM_BOT_TOKEN" en un bloc de notas y Guardalo<br><br>
+9. COPIA lo que este OCUPANDO el "**547856584:BBCzaFttr985rf5LlHP7qJ02T37SoruYEOVS**" ese es tu TELEGRAM_BOT_TOKEN que necesitamos
+10. Pega el TELEGRAM_BOT_TOKEN en un bloc de notas para guardarlo
 Listo, ahora ya tienes creado el Bot de telegram, y tambien el TELEGRAM_BOT_TOKEN, que es la 4ta variable de las 5 variables que necesita el sistema para funcionar
 ****
 **12. Genera el TELEGRAM_CHAT_ID**
-1. Entra a Telegram
-2. Entra a BotFather
-3. En el mensaje " Done! Congratulations on your new bot. You will find it at **t.me/"MiNombre"ReelMonitor_bot.** You can now add a description, about section and profile picture for your bot, see /help for a list of commands. By the way, when you've finished creating your cool bot, ping our Bot Support if you want a better username for it. Just make sure the bot is fully operational before you do this. Use this token to access the HTTP API: 547856584:BBCzaFttr985rf5LlHP7qJ02T37SoruYEOVS Keep your token secure and store it safely, it can be used by anyone to control your bot.
-4. For a description of the Bot API, see this page: https://core.telegram.org/bots/api "Pulsa con tu dedo lo que esté ocupando **t.me/"MiNombre"ReelMonitor_bot.**
-5. Dale a "INICIAR"
-6. Envíale un "Hola" (esto es esencial para saber si el bot funciona, si no lo lee, preocupate, no te tiene que responder con otro mensaje, solo tiene que aparecer en tu mensaje las 2 palomitas de leido, si no te aparece, entonces tienes dos opciones: o solucionas el problema tu solo o me contactas y lo solucionamos juntos) luego de eso ve a google
-7. Luego ve a Google
-8. Copia este link "https://api.telegram.org/bot{TELEGRAM_BOT_TOKEN}/getUpdates" y remplaza el "{TELEGRAM_BOT_TOKEN}" por el TELEGRAM_BOT_TOKEN
-9. Luego le das enter
-10. Luego le das a la casilla de "Dar formato al texto", quedando en ✔
-11. Y te debe salir:<br><br><br> {<br>
+1. Ve a Google
+2. Remplaza en este link "https://api.telegram.org/bot{TELEGRAM_BOT_TOKEN}/getUpdates" remplazando el "{TELEGRAM_BOT_TOKEN}" por tu TELEGRAM_BOT_TOKEN que generamos en el paso 11 y pon el nuevo link en el navegador
+3. Dale Enter (Si te bota:
+                          {<br>
+                           "ok": false,<br>
+                           "error_code": 401,<br>
+                          "description": "Unauthorized"<br>
+                          }<br>
+                          Revisa el https://api.telegram.org/bot{TELEGRAM_BOT_TOKEN}/getUpdates que te dije que modificaras, probablemente este mal)
+5. Te deberia salir: {<br>
                        "ok": true,<br>
                        "result": [ <br>
                          { <br>
@@ -170,204 +165,231 @@ Listo, ahora ya tienes creado el Bot de telegram, y tambien el TELEGRAM_BOT_TOKE
                                "first_name": "Rendal", <br>
                                ... <br>
                              }, <br>
-                             ... <br><br><br>
-   (Si no te sale eso y al contrario te sale:<br><br><br>
-                          {<br>
-                           "ok": false,<br>
-                           "error_code": 401,<br>
-                          "description": "Unauthorized"<br>
-                          }<br><br><br><br>
-                          Revisa el "https://api.telegram.org/bot{TELEGRAM_BOT_TOKEN}/getUpdates" que te dije que modificaras, seguramente lo hiciste mal)
-
-12. Busca algo que diga **"chat": {"id": ...}**, y ese número despues del " "id": " es tu TELEGRAM_CHAT_ID → cópialo, abre un bloc de notas, pegalo y guardalo como "TELEGRAM_CHAT_ID"<br><br>
-Listo ya tenemos el TELEGRAM_CHAT_ID, que es la 5ta variable de las 5 variables que necesita el sistema para funcionar<br>
-****
+                             ... <br>
+6. El número dentro de **"chat": {"id": ...}** es tu TELEGRAM_CHAT_ID → cópialo y abre un bloc de notas y pegalo
+Listo ya tenemos el TELEGRAM_CHAT_ID, que es la 5ta variable de las 5 variables que necesita el sistema para funcionar
 Listo con esto ya tenemos las 5 variables ahora es momento de dejar de buscar y empezar a construir
 ****
 **13. Configura los 5 Secrets en GitHub**
-1. Entra a https://github.com/ e inicia sesion
-2. Donde dice "Top repositories" → dale click a tu Repositorio (que se encuentra deabajo de "Top repositories")
+1. Entra a https://github.com/
+2. Donde dice "Top repositories" → dale click al Repositorio que se encuentra abajo de "Top repositories"
 3. Dale click donde diga "Settings"
-4. Dale click a "Secrets and variables"
-5. Dale click a "Actions"
-6. Dale click a "New repository secret" (en la parte izquierda en letras pequeñas)
-Ahora, ten cuidado al interpretar lo que te voy a decir, porque tengo el presentimiento de que puedas tener confusiones, espero que eso solo sea cosa mia...
-7. En "Name" escribe "IG_ACCESS_TOKEN" y en "Secret" copia y pega la 1ra variable de las 5 variables (el paso 8) → y luego le das a "Add secret"
-8. Luego dale a "New repository secret" → En "Name" escribe "IG_USER_ID" y en "Secret" copia y pega la 2da variable de las 5 variables (paso 9) → y luego le das a "Add secret"
-9. Dale a "New repository secret" → En "Name" escribe "REEL_MEDIA_ID" y en "Secret" copia y pega la 3ra variable de las 5 variables (paso 10) → y le das a "Add secret"
-10. Dale a "New repository secret" → En "Name" escribe "TELEGRAM_BOT_TOKEN" y en "Secret" copia y pega la 4ta variable de las 5 variables (paso 11) → y le das a "Add secret"
-11. Dale a "New repository secret" → En "Name" escribe "TELEGRAM_CHAT_ID" y en "Secret" copia y pega la 5ta variable de las 5 variables (paso 12) → y le das a "Add secret"<br><br>
-Listo, acabamos de integrar las 5 variables al sistema
-****
-Ahora solo falta hacer que el sistema guarde su progreso, pueda subir videos y caption y que se dispare automáticamente para no tener que hacerlo manualmente
+4. Dale clcik a "Secrets and variables"
+5. Dale clcik a "Actions"
+6. Dale clcik a "New repository secret"
+Ahora ten cuidado haciendo exactamente lo que te digo...
+En "Name" se pone el nombre que desees al secreto y en "Secret" se pone el valor que debemos ponerle al secreto
+Ahora
+7. En Name pon IG_ACCESS_TOKEN y en Secret pones el token del paso 8 y darle a "Add secret"
+8. En Name pones IG_ACCESS_TOKEN y en Secret pones el token del paso 8
+9. En Name pones IG_ACCESS_TOKEN y en Secret pones el token del paso 8
+10. En Name pones IG_ACCESS_TOKEN y en Secret pones el token del paso 8
+11. En Name pones IG_ACCESS_TOKEN y en Secret pones el token del paso 8
+Listo, lo que acabamos de hacer es integrar las 5 variables en el sistema. Ahora solo falta hacer que el sistema guarde su propio progreso, permitir que el sistema pueda subir videos y caption y disparar automáticamente el sistema para que no tengas que hacerlo manualmente
 ****
 **14. Haz que el sistema guarde su propio progreso. Activa permisos de escritura para Actions**
 1. Entra a https://github.com/
-2. Donde dice "Top repositories" → dale click a tu Repositorio (que se encuentra abajo de "Top repositories")
-3. Dale click donde diga "Settings" → "Actions" → "General" → "Workflow permissions" → selecciona "Read and write permissions" → y luego dale al boton de abajo "Save"
+2. Donde dice "Top repositories" → dale click al Repositorio que se encuentra abajo de "Top repositories"
+3. Dale click donde diga "Settings" → "Actions" → "General" → "Workflow permissions" → selecciona "Read and write permissions" → y luego le das al boton "Save"
 Con esto le dotas al sistema de guardar su propio progreso
 ****
-**15. Haz que el sistema pueda subir videos y captions. Create una cuenta en Cloudinary**
+**15. Permitire que el sistema pueda subir videos y captions. Crea una cuenta en Cloudinary**
 1. Entra al link [cloudinary.com](https://cloudinary.com)
-2. Create una cuenta en cloudinary o inicia sesion
-Listo, con esto hiciste que el sistema tuviera la posibilidad de subir videos (en forma de URLs), que es mas barato y practico
+2. Create una cuenta en cloudinary
+Listo, esto te permitirá subir tus videos al sistema en forma de URLs, que es mucho mas barato y practico
 ****
 **16. Crea un disparador automático para el sistema. Create una cuenta y configura en cron-jub.org**
 1. Entra al link [github.com/settings/tokens?type=beta](https://github.com/settings/tokens?type=beta)
-3. Dale clic a "Generate new token".
-4. En "Confirm access", confirma tu acceso (con tu contraseña o 2FA).
-5. En "Token name", escribe "trigger-publishme"
-6. En "Expiration" → selecciona "No expiration"
-7. En "Repository access", marca "Only select repositories" → y en el desplegable "Select Repositories", dale click a tu repositorio
-8. Baja hasta "Permissions" → dale clic a la pestaña "Repositories" → dale clic a "Add permissions"
-9. Busca "Actions" en la lista → y dale click
-10. Luego busca algo que diga "Read-only" → dale click y cambia de "Read-only" a "Read and write"
-11. Baja y dale clic a "Generate token"
-12. Dale nuevamente "Generate token"
-13. Copia el token (empieza con "github_pat_...") dandole al icono "Copiar", abre un bloc de notas → pegalo → y guarda ese bloc como "token_de_github" (no lo vas a volver a ver después de esto, por eso la importancia de guardarlo)
-14. Dale click al link [cron-job.org](https://cron-job.org). e inicia sesion o crea una cuenta
-15. En el Panel, dale clic a "CREAR CRONJOB"
-16. En "Título", escribe algo como "Disparar PublishMe"
-17. En "URL" pega este link "https://api.github.com/repos/TU_USUARIO/TU_REPO/actions/workflows/monitor.yml/dispatches" y remplaza el TU_USUARIO por tu nombre de usuario de github y el TU_REPO por el nombre de tu repositorio donde esta el sistema en github) (si tienes dudas: tienes dos opciones: o lo averiguas por ti mismo o me escribes para resolver el problema juntos)
-18. En "Horario de ejecución", marca la opción "Cada" → cambia el número a 15 minutos.
-19. Dale clic a la pestaña "AVANZADO" (arriba, junto a "COMÚN").
-20. Baja hasta "Encabezados" → dale clic a "AÑADIR" dos veces, para crear estos dos encabezados:
- Clave : Authorization - Valor : Bearer TU_TOKEN (remplaaza TU_TOKEN por el "token_de_github" (el que inicia con "github_pat_..." )<br>
+2. Dale clic a "Generate new token".
+3. En "Confirm access", confirma tu acceso (con tu contraseña o 2FA).
+4. En "Token name", escribe algo como "trigger-publishme"
+5. En "Expiration" → selecciona "No expiration"
+6. En "Repository access", marca "Only select repositories" → y en el desplegable, dale click a tu repositorio
+7. Baja hasta "Permissions" → dale clic a la pestaña "Repositories" (aparece junto a "Account") → dale clic a "Add permissions"
+8. Busca "Actions" en la lista → y cámbialo de "Read-only" a "Read and write"
+9. Baja y dale clic a "Generate token"
+10. Y luego dale nuevamente "Generate token"
+11. Copia el token que te muestra (empieza con "github_pat_...") y guárdalo en un lugar seguro — no lo vas a volver a ver después de esto, por eso cópialo y pégalo en algún lado
+12. Dale click al link [cron-job.org](https://cron-job.org). y créate una cuenta
+13. En el Panel, dale clic a "CREAR CRONJOB"
+14. En "Título", escribe algo como "Disparar PublishMe"
+15. En "Horario de ejecución", marca la opción "Cada" → cambia el número a 15 minutos.
+16. Dale clic a la pestaña "AVANZADO" (arriba, junto a "COMÚN").
+17. Baja hasta "Encabezados" → dale clic a "AÑADIR" dos veces, para crear estos dos encabezados:
+ Clave : Authorization - Valor : Bearer {TU_TOKEN} (escribe "Bearer"y seguido tu token "github_pat_..." )<br>
  Clave : Accept - Valor : application/vnd.github+json<br>
-21. En "Método de solicitud" → cambia de "GET" a "POST"
-21. En "Cuerpo de la solicitud", pega exactamente esto: {"ref":"main"}
-22. Baja hasta el final → y dale a "EJECUCIÓN DE PRUEBA" y dale a "INICIAR EJECUCION DE PRUEBA" (si te sale "204 No Content", significa que lo hiciste muy bien ;), si no te sale eso entonces hay un PROBLEMA y es alli donde existen dos alternativas: O lo resuelves tu solo o lo resolvemos juntos).
-23. Luego cierra la ventana → y dale al botón naranja "Crear"
+18. En "Cuerpo de la solicitud", pega exactamente esto: "{"ref":"main"}"
+19. Baja hasta el final → y dale a "EJECUCIÓN DE PRUEBA" (si te sale "204 No Content", significa que lo hiciste muy bien ;) ).
+20. Luego cierra la ventana → y dale al botón naranja "Crear"
 Listo, acabamos de crear el disparador automático del sistema para que no estés activándolo todo el tiempo manualmente
 ****
 Listo, el sistema ya esta construido y la hora de Publicar contenido en Funcion al Rendimiento de tus reels (y olvidarse de las fechas)<br>
-esta por comenzar...
+acaba de comenzar...
 ****
-**Aprende a como subir reels en el sistema**
+**Agrega tu primer reel a la cola de espera**
 1. Entra a https://github.com/
 2. Donde dice "Top repositories" → dale click al Repositorio que se encuentra abajo de "Top repositories"
 3. Busca un archivo que dice "Formato para publicar reels en PublishMe"
-4. Copia tu cantidad de formatos-reels que quieres usar o crear como lo dice el archivo (lee el archivo)
+4. Copia tu cantidad de formatos-reels que quieres usar o crear uno como lo dice el archivo
 7. Busca un archivo llamado "reel_queue.json" → y dale click
-8. Busca un Lápiz (en la parte derecha, cuando le pones el cursor encima aparece un texto que dice "edit this file") → y dale click
+8. Busca un lapiz en la parte derecha (cuando le pones el cursor encima aparece un texto que dice "edit this file") → y dale click
 9. Pega lo que copiaste o creaste en "Formato para publicar reels en PublishMe"
-10. Donde dice URL_DEL_VIDEO_DEL_REEL hay va la Url de todos tus videos que quieras subir (para obtener las URLs de tus videos: entra a cloudiinary → Selecciona a "Activos" (se ubica en la parte izquierda) → busca el boton azul "Subir" y seleccionalo → sube tu video → espera un rato, y luego aparecerá tu video en la pantalla → seleccionalo dandole doble click → luego haz click en "Compartir" ("Share") → luego dale a "Empotrar" → desliza abajo y encontrarás un link → ¡¡¡ESE LINK ES EL TU VIDEO CONVERTIDO EN UN URL!!!) copia ese link → y reemplaza el "URL_DEL_VIDEO_DEL_REEL" por tu URL de tu video que conseguimos
-11. Donde dice TEXTO_QUE_APARECERA_EN_LA_DESCRIPCION va la descripción de tu video, remplaza ese TEXTO_QUE_APARECERA_EN_LA_DESCRIPCION por la descripción de tu video
+10. Donde dice URL_DEL_VIDEO_DEL_REEL hay va la Url de tu video que quieres subir (entra a cludiinary → selecciona el bton subir en la parte derecha superior → sube tu video → aparecera tu video en la pantalla luego seleccionalo dandole dobe click → luego dale a "Compartir" o "Share" → luego dale a "Empotrar" → luego dale a "Configuracion del video" y luego a "Enlace" y luego copia ese link que te aparece abajo → ese es tu URL_DEL_VIDEO_DEL_REEL) y remplaza ese texto "URL_DEL_VIDEO_DEL_REEL" por el url que conseguimos
+11. Donde dice TEXTO_QUE_APARECERA_EN_LA_DESCRIPCION pones lo que vas a poner en la descripción de tu video, remplaza ese TEXTO_QUE_APARECERA_EN_LA_DESCRIPCION por la descripción de tu video
 12. Luego le das a "Commit changes o Confirmar los cambios"
 Listo, haz esto con cada video y ya estarás subiendo tus videos al sistema y se irán publicando en funcion al rendimineto<br>
 ****
 Ahora es hora de configurar el sistema para que decida en función a tus criterios como creador<br>
 ****
 **Ajusta PublishMe a tu estilo de creador**
-1. Busca el archivo que dice "reel_death_trigger.py"
-2. Entre todo el codigo busca lineas que digan:<br>
+1. Busca el archivo que dice "reel_death_trigger.py"<br> → y hazle click
+2. En el codigo busca lineas que digan:<br><br>
    **SLOPE_THRESHOLD** = 2.0<br>
    **CONSECUTIVE_READINGS_REQUIRED** = 3<br>
    **GRACE_PERIOD_HOURS** = 3<br>
    **MERIT_GRACE_TRIGGER_SLOPE** = 5.0<br>
    **MERIT_GRACE_HOURS** = 24<br>
    <br>
-   Estos valores viven dentro de reel_death_trigger.py.<br>
-   Estos valores (2.0 , 3 , 3 , 5.0 , 24) son valores míos<br>
+   Si PublishMe fuera una persona, estas 5 serían su mente<br>
+   Los 5 son la parte del sistema que toma sus decisiones<br>
+   Estos valores viven que ves aqui (2.0 , 3 , 3 , 5.0 , 24)<br>
+   dentro de reel_death_trigger.py.<br>
+   Estos valores son valores míos<br>
    que mas que valores son patrones, patrones<br>
    en mis contenidos como creador de<br>
    contenido.<br>
    No hay valores "correctos" universales — Experimenta<br>
    con los tuyos.<br><br>
 
-   ¿Y como saber que cuales son mis números como creador?<br>
-   Pues eso depende, pues tus números toman forma en función a tu criterio, experiencia e información como creador de contenido<br>
-   Entonces lo mas inteligente es no darte números o decirte que números poner<br>
-   Sino que lo inteligente esta en decirte que significa esos conceptos, y en función a eso, tu mismo descubres tus números<br><br>
+   Entonces tu pregunta muy probablemente sea ¿Que numeros debo poner<br>
+   en **SLOPE_THRESHOLD**, **CONSECUTIVE_READINGS_REQUIRED**,<br>
+   **GRACE_PERIOD_HOURS**, **MERIT_GRACE_TRIGGER_SLOPE**,<br>
+   **MERIT_GRACE_HOURS** y saber que esos numero que estoy poniendo<br>
+   son los correctos?<br>
 
+   Buena pregunta. Y la respuesta es DEPENDE, por eso no te dire<br>
+   que numeros poner, porque no todos los creadores de contenidos son iguales,<br>
+   Es por eso que lo más inteligente es: decirte que significa cada concepto,<br>
+   y según a los conceptos y tu criterio, tu escribirás esos números<br><br>
 
-   **SLOPE_THRESHOLD**<br>
+   **SLOPE_THRESHOLD**<br><br>
 
-   El número de vistas/minuto mínimo que le<br>
-   indica al sistema que un reel está<br>
-   empezando a morir.<br>
+   Si tu número es 1, entonces cuando tu reel te genere menos de 1 vista/minuto, PublishMe publicara tu siguiente reel al instante<br>
+   Si tu número es 2, entonces cuando tu reel te genere menos de 2 vistas/minuto, PublishMe publicara tu siguiente reel al intante<br>
+   Si tu número es 3, entonces cuando tu reel te genere menos de 3 vistas/minuto, PublishMe publicara tu siguiente reel al instante<br>
+   Si tu número es 4, entonces cuando tu reel te genere menos de 4 vistas/minuto, PublishMe publicara tu siguiente reel al instante<br>
+   Si tu número es 5, entonces cuando tu reel te genere menos de 5 vistas/minuto, PublishMe publicara tu siguiente reel al instante<br>
+   Si tu número es 6, entonces cuando tu reel te genere menos de 6 vistas/minuto, PublishMe publicara tu siguiente reel al instante<br>
+   Si tu número es 7, entonces cuando tu reel te genere menos de 7 vistas/minuto, PublishMe publicara tu siguiente reel al instante<br>
+   Si tu número es N, entonces cuando tu reel te genere menos de N vistas/minuto, PublishMe publicara tu siguiente reel al instante<br><br>
+   
 
-   Sin esto: el sistema no distingue un<br>
-   reel que sigue creciendo de uno que ya<br>
-   se apagó. Publica al azar, o no publica<br>
-   nunca.<br>
-   Con esto: el sistema sabe exactamente<br>
-   qué tan vivo tiene que seguir un reel<br>
-   para seguir esperando.<br>
+   **CONSECUTIVE_READINGS_REQUIRED**<br><br>
+   
+   Si tu número es 2, entonces cuando tu reel llegue a tener 2 bajones seguidos (2 lecturas por debajo de las N vistas/minuto seguidas), tu reel sera perdonado para no publicar un siguiente reel antes de tiempo por falsos positivos<br>
+   Si tu número es 3, entonces cuando tu reel llegue a tener 3 bajones seguidos (3 lecturas por debajo de las N vistas/minuto seguidas), tu reel sera perdonado para no publicar un siguiente reel antes de tiempo por falsos positivos<br>
+   Si tu número es 4, entonces cuando tu reel llegue a tener 4 bajones seguidos (4 lecturas por debajo de las N vistas/minuto seguidas), tu reel sera perdonado para no publicar un siguiente reel antes de tiempo por falsos positivos<br>
+   Si tu número es 5, entonces cuando tu reel llegue a tener 5 bajones seguidos (5 lecturas por debajo de las N vistas/minuto seguidas), tu reel sera perdonado para no publicar un siguiente reel antes de tiempo por falsos positivos<br>
+   Si tu número es 6, entonces cuando tu reel llegue a tener 6 bajones seguidos (6 lecturas por debajo de las N vistas/minuto seguidas), tu reel sera perdonado para no publicar un siguiente reel antes de tiempo por falsos positivos<br>
+   Si tu número es 7, entonces cuando tu reel llegue a tener 7 bajones seguidos (7 lecturas por debajo de las N vistas/minuto seguidas), tu reel sera perdonado para no publicar un siguiente reel antes de tiempo por falsos positivos<br>
+   Si tu número es P, entonces cuando tu reel llegue a tener P bajones seguidos (P lecturas por debajo de las N vistas/minuto seguidas), tu reel sera perdonado para no publicar un siguiente reel antes de tiempo por falsos positivos<br><br>
 
-   **CONSECUTIVE_READINGS_REQUIRED**<br>
+   **GRACE_PERIOD_HOURS**<br><br>
 
-   El número de rachas malas seguidas que<br>
-   tolera el sistema antes de dar por muerto a<br>
-   un reel.<br>
+   Si tu número es 1, entonces cuando tu reel se publique, publishme dejará 1 hora a tu reel creciendo desde su hora de publicación para que siga creciendo y demuestre si el reel tenía buen rendimiento para seguir apostando por él<br>
+   Si tu número es 2, entonces cuando tu reel se publique, publishme dejará 2 horas a tu reel creciendo desde su hora de publicación para que siga creciendo y demuestre si el reel tenía buen rendimiento para seguir apostando por él<br>
+   Si tu número es 3, entonces cuando tu reel se publique, publishme dejará 3 horas a tu reel creciendo desde su hora de publicación para que siga creciendo y demuestre si el reel tenía buen rendimiento para seguir apostando por él<br>
+   Si tu número es 4, entonces cuando tu reel se publique, publishme dejará 4 horas a tu reel creciendo desde su hora de publicación para que siga creciendo y demuestre si el reel tenía buen rendimiento para seguir apostando por él<br>
+   Si tu número es 5, entonces cuando tu reel se publique, publishme dejará 5 horas a tu reel creciendo desde su hora de publicación para que siga creciendo y demuestre si el reel tenía buen rendimiento para seguir apostando por él<br>
+   Si tu número es 6, entonces cuando tu reel se publique, publishme dejará 6 horas a tu reel creciendo desde su hora de publicación para que siga creciendo y demuestre si el reel tenía buen rendimiento para seguir apostando por él<br>
+   Si tu número es 7, entonces cuando tu reel se publique, publishme dejará 7 horas a tu reel creciendo desde su hora de publicación para que siga creciendo y demuestre si el reel tenía buen rendimiento para seguir apostando por él<br>
+   Si tu número es Q, entonces cuando tu reel se publique, publishme dejará Q horas a tu reel creciendo desde su hora de publicación para que siga creciendo y demuestre si el reel tenía buen rendimiento para seguir apostando por él<br><br>
+   
 
-   Sin esto: una sola lectura baja mata el<br>
-   reel de inmediato. El ruido normal se<br>
-   confunde con muerte real, y el<br>
-   contenido se reemplaza antes de<br>
-   tiempo.<br>
-   Con esto: el reel tiene rachas<br>
-   garantizadas para demostrar que se<br>
-   estaba recuperando, antes de ser<br>
-   reemplazado.<br>
+   **MERIT_GRACE_TRIGGER_SLOPE**<br><br>
 
-   **GRACE_PERIOD_HOURS**<br>
+   Si tu número es 1, entonces cuando tu reel llegue a 1 vista/minuto publishme dejara T horas respirando a tu reel para que crezca y se exprima todo su potencial<br>
+   Si tu número es 2, entonces cuando tu reel llegue a 2 vistas/minuto publishme dejara T horas respirando a tu reel para que crezca y se exprima todo su potencial<br>
+   Si tu número es 3, entonces cuando tu reel llegue a 3 vistas/minuto publishme dejara T horas respirando a tu reel para que crezca y se exprima todo su potencial<br>
+   Si tu número es 4, entonces cuando tu reel llegue a 4 vistas/minuto publishme dejara T horas respirando a tu reel para que crezca y se exprima todo su potencial<br>
+   Si tu número es 5, entonces cuando tu reel llegue a 5 vistas/minuto publishme dejara T horas respirando a tu reel para que crezca y se exprima todo su potencial<br>
+   Si tu número es 6, entonces cuando tu reel llegue a 6 vistas/minuto publishme dejara T horas respirando a tu reel para que crezca y se exprima todo su potencial<br>
+   Si tu número es 7, entonces cuando tu reel llegue a 7 vistas/minuto publishme dejara T horas respirando a tu reel para que crezca y se exprima todo su potencial<br>
+   Si tu número es M, entonces cuando tu reel llegue a M vistas/minuto publishme dejara T horas respirando a tu reel para que crezca y se exprima todo su potencial<br><br>
 
-   El número de horas, desde el momento de<br>
-   publicación, que se le dan a todos tus reels<br>
-   para respirar antes de evaluar si rinden o no.<br>
+   **MERIT_GRACE_HOURS**<br><br>
 
-   Sin esto: el sistema mata reels recién<br>
-   nacidos mientras Instagram todavía<br>
-   los está probando con una audiencia<br>
-   pequeña. Su rendimiento real nunca<br>
-   llega a revelarse.<br>
-   Con esto: cada reel tiene el tiempo<br>
-   garantizado para mostrar su verdadero<br>
-   potencial antes de ser juzgado.<br>
+   Si tu numero es 1, tu T (T del **MERIT_GRACE_TRIGGER_SLOPE**) sera 1<br>
+   Si tu numero es 2, tu T (T del **MERIT_GRACE_TRIGGER_SLOPE**) sera 2<br>
+   Si tu numero es 3, tu T (T del **MERIT_GRACE_TRIGGER_SLOPE**) sera 3<br>
+   Si tu numero es 4, tu T (T del **MERIT_GRACE_TRIGGER_SLOPE**) sera 4<br>
+   Si tu numero es 5, tu T (T del **MERIT_GRACE_TRIGGER_SLOPE**) sera 5<br>
+   Si tu numero es 6, tu T (T del **MERIT_GRACE_TRIGGER_SLOPE**) sera 6<br>
+   Si tu numero es 7, tu T (T del **MERIT_GRACE_TRIGGER_SLOPE**) sera 7<br><br>
+   
+   
 
-   **MERIT_GRACE_TRIGGER_SLOPE**<br>
+   
+   Cuando hayas encontrado tu numero para **SLOPE_THRESHOLD**<br>
+   Ve a "**SLOPE_THRESHOLD** = 2.0" y remplaza el "2.0" por ese numero<br>
+   Cuando hayas encontrado tu numero para **CONSECUTIVE_READINGS_REQUIRED**<br>
+   Ve a "**CONSECUTIVE_READINGS_REQUIRED** = 3" y remplaza el "3" por ese numero<br>
+   Cuando hayas encontrado tu numero para **GRACE_PERIOD_HOURS**<br>
+   Ve a "**GRACE_PERIOD_HOURS** = 3" y remplaza el "3" por ese numero<br>
+   Cuando hayas encontrado tu numero para **MERIT_GRACE_TRIGGER_SLOPE**<br>
+   Ve a "**MERIT_GRACE_TRIGGER_SLOPE** = 5" y remplaza el "5" por ese numero<br>
+   Cuando hayas encontrado tu numero para **MERIT_GRACE_HOURS**<br>
+   Ve a "**MERIT_GRACE_HOURS** = 24" y remplaza el "24" por ese numero<br><br>
+   
+****
+**¿Cómo publicar tus contenidos como creador en PublishMe?** (LA ACCION DE PUBLICAR QUE HARAS TODOS LOS DIAS)<br>
+Repetir el paso "**Agrega tu primer reel a la cola de espera**" las veces que sean necesarias<br>
+****
 
-   El número de vistas/minuto que tú, como<br>
-   creador, defines como la señal de que un<br>
-   reel está a punto de dispararse.<br>
+### Problemas conocidos y su solucion
+**"Rol de desarrollador insuficiente" al<br>
+generar el token** → Falta agregarte como<br>
+Instagram tester (paso 7) y aceptar la<br>
+invitación desde un ordenador.<br>
 
-   Sin esto: el sistema trata a un reel viral<br>
-   exactamente igual que a uno<br>
-   mediocre. No existe ninguna<br>
-   diferencia entre los dos.<br>
-   Con esto: el sistema reconoce el<br>
-   momento exacto en que un reel<br>
-   demuestra éxito excepcional.<br>
+**"403 Forbidden" / "Resource not<br>
+accessible by personal access token"<br>
+al probar el cronjob de cron-job.org** → El<br>
+token de GitHub del paso 15 quedó con el<br>
+permiso de Actions en "Read-only" en vez<br>
+de "Read and write". Revísalo en<br>
+github.com/settings/tokens?type=beta →<br>
+abre tu token → confirma que "Actions" diga<br>
+"Read and write" (si no, créalo de nuevo con<br>
+el permiso correcto, no se puede editar uno<br>
+ya creado).<br>
 
-   **MERIT_GRACE_HOURS**<br>
+**El archivo reel_queue.json da error de<br>
+JSON al correr el script** → Probablemente<br>
+pegaste texto con saltos de línea "crudos".<br>
+Espera a que corra fix_queue.yml<br>
+automáticamente (unos segundos después<br>
+del commit), o corre fix_reel_queue.py<br>
+manualmente.<br>
 
-   El número de horas de tolerancia que se<br>
-   gana un reel apenas toca esa señal de éxito.<br>
-   Sus rachas malas dejan de contar en su<br>
-   contra durante ese tiempo.<br>
+**El sistema no publica aunque el reel<br>
+claramente ya murió** → Revisa el<br>
+reel_state.json: compara el ts de la<br>
+última lectura contra la hora actual. Si el<br>
+intervalo es mucho mayor a 15 min, revisa<br>
+que cron-job.org esté activo y que el token<br>
+no haya expirado.<br>
 
-   Sin esto: un reel viral muere por una<br>
-   caída puntual, en el momento exacto<br>
-   en que más falta le hace seguir vivo<br>
-   para capitalizar su alcance.<br>
-   Con esto: un reel excepcional se gana<br>
-   el beneficio de la duda, y sigue vivo<br>
-   horas — o días, si repite la hazaña —<br>
-   más que un reel normal.<br>
-
-
-**Problemas conocidos y su solucion**
-"Rol de desarrollador insuficiente" al generar el token → Falta agregarte como Instagram tester (paso 7) y aceptar la invitación desde el celular.
-
-"403 Forbidden" / "Resource not accessible by personal access token" al probar el cronjob de cron-job.org → El token de GitHub del paso 15 quedó con el permiso de Actions en "Read-only" en vez de "Read and write". Revísalo en github.com/settings/tokens?type=beta → abre tu token → confirma que "Actions" diga "Read and write" (si no, créalo de nuevo con el permiso correcto, no se puede editar uno ya creado).
-
-El archivo reel_queue.json da error de JSON al correr el script → Probablemente pegaste texto con saltos de línea "crudos". Espera a que corra fix_queue.yml automáticamente (unos segundos después del commit), o corre fix_reel_queue.py manualmente.
-
-El sistema no publica aunque el reel claramente ya murió → Revisa el reel_state.json: compara el ts de la última lectura contra la hora actual. Si el intervalo es mucho mayor a 15 min, revisa que cron-job.org esté activo y que el token no haya expirado.
-
-Error "400 Bad Request" al publicar → Con la versión actual del script, el mensaje de Telegram te dice el motivo real (caption muy largo, video no descargable, etc.), no solo el código.
-
-**Aviso importante sobre datos**
-Cada instancia de PublishMe opera bajo la responsabilidad de quien la instala: tus credenciales, tu app de Meta, tu cumplimiento de las políticas de Meta/Instagram. PublishMe no almacena ni tiene acceso a tus datos a menos que me los proporciones personalmente, de no ser el caso que me los envies, los datos quedan protegidos contigo y a tu decision de con quien quieras compartirlos
+**Error "400 Bad Request" al publicar** → Con<br>
+la versión actual del script, el mensaje de<br>
+Telegram te dice el motivo real (caption<br>
+muy largo, video no descargable, etc.), no<br>
+solo el código.<br>
+****
+**Aviso importante sobre datos**<br>
+Cada instancia de PublishMe opera bajo la responsabilidad de quien la instala: tus credenciales, tu app<br>
+de Meta, tu cumplimiento de las políticas de Meta/Instagram. PublishMe no almacena ni tiene acceso a<br>
+tus datos a menos que los proporciones personalmente al creador del sistema PublishMe, de no ser el caso<br>
+que lo envies al creador (a mi), los datos quedan protegidos contigo y a tu criterio y decisión de con<br>
+quien quieras compartirlo<br>
 
