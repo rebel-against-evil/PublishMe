@@ -1,0 +1,282 @@
+**Formato para publicar reels en PublishMe**
+
+
+NOTA: Si necesitas para mas reels (+10 reel), pasale a chatgpt los 10 ejemplos que estan a continuacion y le dices:
+"En funcion a estos ejemplos de 1,2,3,4,5,6,7,8,9 y 10. Cual seria para "N" reels" donde "N" es el numero de reels que quieres crear
+
+O si no quieres preguntarle a la IA todo el tiempo, te invito a que hagas un esfuerzo mental conmigo
+¿Te das cuenta del patron que hay en los "Para un reel" "Para 2 reels" "Para 3 reels" "Para 4 reels" "Para 5 reels" "Para 6 reels" "Para 7 reels" "Para 8 reels" "Para 9 reels" "Para 10 reels"?
+Replica ese patron para N reels, donde N es tu numero de reels que quieres crear
+
+
+
+
+Para un reel:
+
+[
+  {
+    "video_url": "URL_DEL_VIDEO_DEL_REEL",
+    "caption": "TEXTO_QUE_APARECERA_EN_LA_DESCRIPCION"
+  }
+]
+
+Para 2 reels:
+
+[
+  {
+    "video_url": "[URL_DEL_VIDEO_DEL_REEL",
+    "caption": "[TEXTO_QUE_APARECERA_EN_LA_DESCRIPCION]"
+  },
+  {
+    "video_url": "[URL_DEL_VIDEO_DEL_REEL",
+    "caption": "[TEXTO_QUE_APARECERA_EN_LA_DESCRIPCION]"
+  }
+]
+
+Para 3 reels:
+
+[
+  {
+    "video_url": "URL_DEL_VIDEO_DEL_REEL",
+    "caption": "TEXTO_QUE_APARECERA_EN_LA_DESCRIPCION"
+  },
+  {
+    "video_url": "URL_DEL_VIDEO_DEL_REEL",
+    "caption": "TEXTO_QUE_APARECERA_EN_LA_DESCRIPCION"
+  },
+  {
+    "video_url": "URL_DEL_VIDEO_DEL_REEL",
+    "caption": "TEXTO_QUE_APARECERA_EN_LA_DESCRIPCION"
+  }
+]
+
+Para 4 reels:
+
+[
+  {
+    "video_url": "URL_DEL_VIDEO_DEL_REEL",
+    "caption": "TEXTO_QUE_APARECERA_EN_LA_DESCRIPCION"
+  },
+  {
+    "video_url": "URL_DEL_VIDEO_DEL_REEL",
+    "caption": "TEXTO_QUE_APARECERA_EN_LA_DESCRIPCION"
+  },
+  {
+    "video_url": "URL_DEL_VIDEO_DEL_REEL",
+    "caption": "TEXTO_QUE_APARECERA_EN_LA_DESCRIPCION"
+  },
+  {
+    "video_url": "URL_DEL_VIDEO_DEL_REEL",
+    "caption": "TEXTO_QUE_APARECERA_EN_LA_DESCRIPCION"
+  }
+]
+
+Para 5 reels:
+
+[
+  {
+    "video_url": "URL_DEL_VIDEO_DEL_REEL",
+    "caption": "TEXTO_QUE_APARECERA_EN_LA_DESCRIPCION"
+  },
+  {
+    "video_url": "URL_DEL_VIDEO_DEL_REEL",
+    "caption": "TEXTO_QUE_APARECERA_EN_LA_DESCRIPCION"
+  },
+  {
+    "video_url": "URL_DEL_VIDEO_DEL_REEL",
+    "caption": "TEXTO_QUE_APARECERA_EN_LA_DESCRIPCION"
+  },
+  {
+    "video_url": "URL_DEL_VIDEO_DEL_REEL",
+    "caption": "TEXTO_QUE_APARECERA_EN_LA_DESCRIPCION"
+  },
+  {
+    "video_url": "URL_DEL_VIDEO_DEL_REEL",
+    "caption": "TEXTO_QUE_APARECERA_EN_LA_DESCRIPCION"
+  }
+]
+
+Para 6 reels:
+
+[
+  {
+    "video_url": "URL_DEL_VIDEO_DEL_REEL",
+    "caption": "TEXTO_QUE_APARECERA_EN_LA_DESCRIPCION"
+  },
+  {
+    "video_url": "URL_DEL_VIDEO_DEL_REEL",
+    "caption": "TEXTO_QUE_APARECERA_EN_LA_DESCRIPCION"
+  },
+  {
+    "video_url": "URL_DEL_VIDEO_DEL_REEL",
+    "caption": "TEXTO_QUE_APARECERA_EN_LA_DESCRIPCION"
+  },
+  {
+    "video_url": "URL_DEL_VIDEO_DEL_REEL",
+    "caption": "TEXTO_QUE_APARECERA_EN_LA_DESCRIPCION"
+  },
+  {
+    "video_url": "URL_DEL_VIDEO_DEL_REEL",
+    "caption": "TEXTO_QUE_APARECERA_EN_LA_DESCRIPCION"
+  },
+  {
+    "video_url": "URL_DEL_VIDEO_DEL_REEL",
+    "caption": "TEXTO_QUE_APARECERA_EN_LA_DESCRIPCION"
+  }
+]
+
+Para 7 reels:
+
+[
+  {
+    "video_url": "URL_DEL_VIDEO_DEL_REEL",
+    "caption": "TEXTO_QUE_APARECERA_EN_LA_DESCRIPCION"
+  },
+  {
+    "video_url": "URL_DEL_VIDEO_DEL_REEL",
+    "caption": "TEXTO_QUE_APARECERA_EN_LA_DESCRIPCION"
+  },
+  {
+    "video_url": "URL_DEL_VIDEO_DEL_REEL",
+    "caption": "TEXTO_QUE_APARECERA_EN_LA_DESCRIPCION"
+  },
+  {
+    "video_url": "URL_DEL_VIDEO_DEL_REEL",
+    "caption": "TEXTO_QUE_APARECERA_EN_LA_DESCRIPCION"
+  },
+  {
+    "video_url": "URL_DEL_VIDEO_DEL_REEL",
+    "caption": "TEXTO_QUE_APARECERA_EN_LA_DESCRIPCION"
+  },
+  {
+    "video_url": "URL_DEL_VIDEO_DEL_REEL",
+    "caption": "TEXTO_QUE_APARECERA_EN_LA_DESCRIPCION"
+  },
+  {
+    "video_url": "URL_DEL_VIDEO_DEL_REEL",
+    "caption": "TEXTO_QUE_APARECERA_EN_LA_DESCRIPCION"
+  }
+]
+
+Para 8 reels:
+
+[
+  {
+    "video_url": "URL_DEL_VIDEO_DEL_REEL",
+    "caption": "TEXTO_QUE_APARECERA_EN_LA_DESCRIPCION"
+  },
+  {
+    "video_url": "URL_DEL_VIDEO_DEL_REEL",
+    "caption": "TEXTO_QUE_APARECERA_EN_LA_DESCRIPCION"
+  },
+  {
+    "video_url": "URL_DEL_VIDEO_DEL_REEL",
+    "caption": "TEXTO_QUE_APARECERA_EN_LA_DESCRIPCION"
+  },
+  {
+    "video_url": "URL_DEL_VIDEO_DEL_REEL",
+    "caption": "TEXTO_QUE_APARECERA_EN_LA_DESCRIPCION"
+  },
+  {
+    "video_url": "URL_DEL_VIDEO_DEL_REEL",
+    "caption": "TEXTO_QUE_APARECERA_EN_LA_DESCRIPCION"
+  },
+  {
+    "video_url": "URL_DEL_VIDEO_DEL_REEL",
+    "caption": "TEXTO_QUE_APARECERA_EN_LA_DESCRIPCION"
+  },
+  {
+    "video_url": "URL_DEL_VIDEO_DEL_REEL",
+    "caption": "TEXTO_QUE_APARECERA_EN_LA_DESCRIPCION"
+  },
+  {
+    "video_url": "URL_DEL_VIDEO_DEL_REEL",
+    "caption": "TEXTO_QUE_APARECERA_EN_LA_DESCRIPCION"
+  }
+]
+
+Para 9 reels:
+
+[
+  {
+    "video_url": "URL_DEL_VIDEO_DEL_REEL",
+    "caption": "TEXTO_QUE_APARECERA_EN_LA_DESCRIPCION"
+  },
+  {
+    "video_url": "URL_DEL_VIDEO_DEL_REEL",
+    "caption": "TEXTO_QUE_APARECERA_EN_LA_DESCRIPCION"
+  },
+  {
+    "video_url": "URL_DEL_VIDEO_DEL_REEL",
+    "caption": "TEXTO_QUE_APARECERA_EN_LA_DESCRIPCION"
+  },
+  {
+    "video_url": "URL_DEL_VIDEO_DEL_REEL",
+    "caption": "TEXTO_QUE_APARECERA_EN_LA_DESCRIPCION"
+  },
+  {
+    "video_url": "URL_DEL_VIDEO_DEL_REEL",
+    "caption": "TEXTO_QUE_APARECERA_EN_LA_DESCRIPCION"
+  },
+  {
+    "video_url": "URL_DEL_VIDEO_DEL_REEL",
+    "caption": "TEXTO_QUE_APARECERA_EN_LA_DESCRIPCION"
+  },
+  {
+    "video_url": "URL_DEL_VIDEO_DEL_REEL",
+    "caption": "TEXTO_QUE_APARECERA_EN_LA_DESCRIPCION"
+  },
+  {
+    "video_url": "URL_DEL_VIDEO_DEL_REEL",
+    "caption": "TEXTO_QUE_APARECERA_EN_LA_DESCRIPCION"
+  },
+  {
+    "video_url": "URL_DEL_VIDEO_DEL_REEL",
+    "caption": "TEXTO_QUE_APARECERA_EN_LA_DESCRIPCION"
+  }
+]
+
+Para 10 reels:
+
+[
+  {
+    "video_url": "URL_DEL_VIDEO_DEL_REEL",
+    "caption": "TEXTO_QUE_APARECERA_EN_LA_DESCRIPCION"
+  },
+  {
+    "video_url": "URL_DEL_VIDEO_DEL_REEL",
+    "caption": "TEXTO_QUE_APARECERA_EN_LA_DESCRIPCION"
+  },
+  {
+    "video_url": "URL_DEL_VIDEO_DEL_REEL",
+    "caption": "TEXTO_QUE_APARECERA_EN_LA_DESCRIPCION"
+  },
+  {
+    "video_url": "URL_DEL_VIDEO_DEL_REEL",
+    "caption": "TEXTO_QUE_APARECERA_EN_LA_DESCRIPCION"
+  },
+  {
+    "video_url": "URL_DEL_VIDEO_DEL_REEL",
+    "caption": "TEXTO_QUE_APARECERA_EN_LA_DESCRIPCION"
+  },
+  {
+    "video_url": "URL_DEL_VIDEO_DEL_REEL",
+    "caption": "TEXTO_QUE_APARECERA_EN_LA_DESCRIPCION"
+  },
+  {
+    "video_url": "URL_DEL_VIDEO_DEL_REEL",
+    "caption": "TEXTO_QUE_APARECERA_EN_LA_DESCRIPCION"
+  },
+  {
+    "video_url": "URL_DEL_VIDEO_DEL_REEL",
+    "caption": "TEXTO_QUE_APARECERA_EN_LA_DESCRIPCION"
+  },
+  {
+    "video_url": "URL_DEL_VIDEO_DEL_REEL",
+    "caption": "TEXTO_QUE_APARECERA_EN_LA_DESCRIPCION"
+  },
+  {
+    "video_url": "URL_DEL_VIDEO_DEL_REEL",
+    "caption": "TEXTO_QUE_APARECERA_EN_LA_DESCRIPCION"
+  }
+]
