@@ -393,6 +393,6 @@ tus datos a menos que los proporciones personalmente al creador del sistema Publ
 que lo envies al creador (a mi), los datos quedan protegidos contigo y a tu criterio y decisión de con<br>
 quien quieras compartirlo<br>
 ****
-**NO PUEDO INSTALARLO O SE ME HACE DIFICIL INSTALARLO**
-Si necesitas instalarlo pero es muy complicado para ti instalarlo por tu cuenta, tienes una opción más, contactarme para darte instrucciones claras de como instalarlo
-Este es mi contacto 
+**TENGO PROBLEMAS AL INSTALAR PUBLISHME**<br>
+Si tienes problemas para instalar PublishhMe, entonces contactame a este correo para solucionarlos<br>
+contactpublishme@gmail.com
