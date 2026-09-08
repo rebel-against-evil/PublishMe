@@ -12,7 +12,7 @@
 ### INSTALACION PASO A PASO
 
 **1. USA ESTA **PLANTILLA** DE GITHUB**
-1. Dale clic a este enlace " https://github.com/ChatoLicano/PublishMe "
+1. Dale clic a este enlace " [https://github.com/ChatoLicano/PublishMe ](https://github.com/rebel-against-evil/PublishMe) "
 2. Luego dale clic al botón verde que dice "Usar esta plantilla"
 3. Luego dale a la opción Crear un nuevo repositorio → Selecciona Nombre del repositorio y escríbele en el espacio un nombre a tu copia de PublishMe → Ve a Configuración → Elige visibilidad
 4. Cambia de "Público" a "Privado" Esto crea una copia 100% tuya e independiente de PublishMe.
