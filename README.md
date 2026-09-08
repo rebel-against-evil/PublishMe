@@ -10,7 +10,7 @@
 5. Una cuenta de cron-job.org (gratis) para disparar el sistema cada 15 minutos con precisión.
 ****
 **SI TIENES PROBLEMAS AL INSTALAR PUBLISHME...**<br>
-Si tienes problemas para instalar PublishhMe, entonces contactame a este correo para solucionarlos<br>
+Si tienes problemas para instalar PublishhMe, entonces contactame a este correo para solucionarlo<br>
 contactpublishme@gmail.com
 ****
 ### INSTALACION PASO A PASO
@@ -398,5 +398,5 @@ que lo envies al creador (a mi), los datos quedan protegidos contigo y a tu crit
 quien quieras compartirlo<br>
 ****
 **TENGO PROBLEMAS AL INSTALAR PUBLISHME**<br>
-Si tienes problemas para instalar PublishhMe, entonces contactame a este correo para solucionarlos<br>
+Si tienes problemas para instalar PublishhMe, entonces contactame a este correo para solucionarlo<br>
 contactpublishme@gmail.com
