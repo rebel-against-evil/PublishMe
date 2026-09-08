@@ -5,7 +5,7 @@ NOTA: Si necesitas para mas reels (+10 reel), pasale a chatgpt los 10 ejemplos q
 "En funcion a estos ejemplos de 1,2,3,4,5,6,7,8,9 y 10. Cual seria para "N" reels" donde "N" es el numero de reels que quieres crear
 
 O si no quieres preguntarle a la IA todo el tiempo, te invito a que hagas un esfuerzo mental conmigo
-¿Te das cuenta del patron que hay en los "Para un reel" "Para 2 reels" "Para 3 reels" "Para 4 reels" "Para 5 reels" "Para 6 reels" "Para 7 reels" "Para 8 reels" "Para 9 reels" "Para 10 reels"?
+¿Te das cuenta del patrón que hay en los "Para un reel" "Para 2 reels" "Para 3 reels" ......... "Para 10 reels"?
 Replica ese patron para N reels, donde N es tu numero de reels que quieres crear
 
 
