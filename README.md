@@ -9,6 +9,10 @@
 4. Una cuenta de Telegram (para recibir notificaciones).
 5. Una cuenta de cron-job.org (gratis) para disparar el sistema cada 15 minutos con precisión.
 ****
+**SI TIENES PROBLEMAS AL INSTALAR PUBLISHME...**<br>
+Si tienes problemas para instalar PublishhMe, entonces contactame a este correo para solucionarlos<br>
+contactpublishme@gmail.com
+****
 ### INSTALACION PASO A PASO
 
 **1. USA ESTA **PLANTILLA** DE GITHUB**
